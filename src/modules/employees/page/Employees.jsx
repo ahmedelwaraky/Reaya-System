@@ -4,9 +4,9 @@ import { Users, UserCheck, CalendarOff, Building2 } from "lucide-react";
 import StatCard       from "../../../component/ui/StatCard";
 import BarChartCard   from "../../../component/ui/BarChartCard";
 import DonutChartCard from "../../../component/ui/DonutChartCard";
-import StaffTable     from "../components/StaffTable";            
+import StaffTable     from "../components/EmployeesTable";            
 
-export default function Staff() {
+export default function Employees() {
   const { t } = useTranslation("employees");
 
   /* Stats */

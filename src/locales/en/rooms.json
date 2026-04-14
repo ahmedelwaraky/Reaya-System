@@ -1,0 +1,52 @@
+{
+  "title": "Rooms",
+
+  "stats": {
+    "total":       "Total Rooms",
+    "available":   "Available Rooms",
+    "occupied":    "Occupied Rooms",
+    "maintenance": "Under Maintenance"
+  },
+
+  "charts": {
+    "byFloor": "Occupancy by Floor",
+    "byType":  "Rooms by Type"
+  },
+
+  "floors": {
+    "f1": "Ground",
+    "f2": "1st",
+    "f3": "2nd",
+    "f4": "3rd",
+    "f5": "4th",
+    "f6": "5th"
+  },
+
+  "types": {
+    "regular":   "Regular",
+    "vip":       "VIP",
+    "icu":       "ICU",
+    "surgery":   "Surgery",
+    "maternity": "Maternity"
+  },
+
+  "status": {
+    "available":   "Available",
+    "occupied":    "Occupied",
+    "maintenance": "Maintenance"
+  },
+
+  "table": {
+    "id":       "#",
+    "roomNo":   "Room No.",
+    "type":     "Room Type",
+    "floor":    "Floor",
+    "building": "Building",
+    "beds":     "Beds",
+    "status":   "Status",
+    "actions":  "Actions"
+  },
+
+  "search": "Search...",
+  "addNew": "+ Add New"
+}

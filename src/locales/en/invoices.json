@@ -1,0 +1,52 @@
+{
+  "title": "Invoices",
+
+  "stats": {
+    "total":    "Total Invoices",
+    "revenue":  "Total Revenue",
+    "paid":     "Paid Invoices",
+    "pending":  "Pending Payments"
+  },
+
+  "charts": {
+    "monthly":   "Monthly Revenue",
+    "byPayment": "Payment Methods"
+  },
+
+  "months": {
+    "jan": "Jan",
+    "feb": "Feb",
+    "mar": "Mar",
+    "apr": "Apr",
+    "may": "May",
+    "jun": "Jun"
+  },
+
+  "payment": {
+    "insurance": "Insurance",
+    "cash":      "Cash",
+    "card":      "Card",
+    "transfer":  "Transfer"
+  },
+
+  "status": {
+    "paid":     "Paid",
+    "pending":  "Pending",
+    "refunded": "Refunded"
+  },
+
+  "table": {
+    "id":        "#",
+    "invoiceNo": "Invoice No.",
+    "patient":   "Patient Name",
+    "amount":    "Amount",
+    "payment":   "Payment",
+    "date":      "Date",
+    "status":    "Status",
+    "actions":   "Actions"
+  },
+
+  "currency": "SAR",
+  "search":   "Search...",
+  "addNew":   "+ Add New"
+}

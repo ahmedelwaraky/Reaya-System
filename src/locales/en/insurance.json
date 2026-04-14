@@ -1,0 +1,42 @@
+{
+  "title": "Insurance",
+
+  "stats": {
+    "companies":  "Insurance Companies",
+    "insured":    "Insured Patients",
+    "claims":     "Monthly Claims",
+    "approved":   "Approved Claims"
+  },
+
+  "charts": {
+    "monthly":   "Monthly Claims",
+    "byInsurer": "Patients by Insurer"
+  },
+
+  "months": {
+    "jan": "Jan",
+    "feb": "Feb",
+    "mar": "Mar",
+    "apr": "Apr",
+    "may": "May",
+    "jun": "Jun"
+  },
+
+  "status": {
+    "active":    "Active",
+    "suspended": "Suspended"
+  },
+
+  "table": {
+    "id":        "#",
+    "company":   "Insurance Company",
+    "policyNo":  "Policy No.",
+    "coverage":  "Coverage %",
+    "patients":  "Total Patients",
+    "status":    "Status",
+    "actions":   "Actions"
+  },
+
+  "search": "Search...",
+  "addNew": "+ Add New"
+}

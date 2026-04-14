@@ -1,0 +1,51 @@
+{
+  "title": "المباني",
+  "addNew": "+ إضافة",
+  "search": "بحث...",
+
+  "stats": {
+    "total":       "إجمالي المباني",
+    "totalFloors": "إجمالي الطوابق",
+    "active":      "المباني النشطة",
+    "departments": "إجمالي الأقسام"
+  },
+
+  "charts": {
+    "floorsByBuilding": "الطوابق لكل مبنى",
+    "roomsByBuilding":  "الغرف حسب المبنى"
+  },
+
+  "buildingNames": {
+    "main":        "المبنى الرئيسي",
+    "emergency":   "مبنى الطوارئ",
+    "outpatient":  "مبنى العيادات الخارجية",
+    "surgical":    "مبنى العمليات",
+    "maternity":   "مبنى الولادة",
+    "diagnostics": "مبنى التشخيص",
+    "admin":       "المبنى الإداري",
+    "rehab":       "مبنى التأهيل"
+  },
+
+  "table": {
+    "id":          "م",
+    "name":        "اسم المبنى",
+    "floors":      "الطوابق",
+    "departments": "الأقسام",
+    "rooms":       "الغرف",
+    "manager":     "المسؤول",
+    "status":      "الحالة",
+    "actions":     "الإجراءات"
+  },
+
+  "statuses": {
+    "active":      "نشط",
+    "inactive":    "غير نشط",
+    "maintenance": "صيانة"
+  },
+
+  "actions": {
+    "viewReport":  "عرض التقرير",
+    "maintenance": "وضع صيانة",
+    "deactivate":  "تعطيل"
+  }
+}

@@ -19,6 +19,17 @@ import arPatients from "./locales/ar/patients.json";
 import enPatients from "./locales/en/patients.json";
 import arAppointments from "./locales/ar/appointments.json";
 import enAppointments from "./locales/en/appointments.json";
+import arInvoices from "./locales/ar/invoices.json";
+import enInvoices from "./locales/en/invoices.json";
+import arInsurance from "./locales/ar/insurance.json";
+import enInsurance from "./locales/en/insurance.json";
+import arDepartments from "./locales/ar/departments.json";
+import enDepartments from "./locales/en/departments.json";
+import arRooms from "./locales/ar/rooms.json";
+import enRooms from "./locales/en/rooms.json";
+
+import arBuildings from "./locales/ar/buildings.json";
+import enBuildings from "./locales/en/buildings.json";
 
 
 const applyDir = (lang) => {
@@ -40,6 +51,11 @@ i18n
         doctors:   arDoctors,   // ✅
         patients:  arPatients,  // ✅
         appointments: arAppointments, // ✅
+        invoices: arInvoices, // ✅
+        insurance: arInsurance, // ✅
+        departments: arDepartments, // ✅
+        rooms: arRooms, // ✅
+        buildings: arBuildings, // ✅
       },
       en: {
         translation: en,
@@ -49,6 +65,11 @@ i18n
         doctors:   enDoctors,   // ✅
         patients:  enPatients,  // ✅
         appointments: enAppointments, // ✅
+        invoices: enInvoices, // ✅
+        insurance: enInsurance, // ✅
+        departments: enDepartments, // ✅
+        rooms: enRooms, // ✅
+        buildings: enBuildings, // ✅
       },
     },
     fallbackLng:   "ar",

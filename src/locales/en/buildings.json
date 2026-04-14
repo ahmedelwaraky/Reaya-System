@@ -1,0 +1,51 @@
+{
+  "title": "Buildings",
+  "addNew": "+ Add New",
+  "search": "Search...",
+
+  "stats": {
+    "total":       "Total Buildings",
+    "totalFloors": "Total Floors",
+    "active":      "Active Buildings",
+    "departments": "Total Departments"
+  },
+
+  "charts": {
+    "floorsByBuilding": "Floors per Building",
+    "roomsByBuilding":  "Rooms per Building"
+  },
+
+  "buildingNames": {
+    "main":        "Main Building",
+    "emergency":   "Emergency Building",
+    "outpatient":  "Outpatient Clinic",
+    "surgical":    "Surgical Building",
+    "maternity":   "Maternity Building",
+    "diagnostics": "Diagnostics Building",
+    "admin":       "Administrative Building",
+    "rehab":       "Rehabilitation Building"
+  },
+
+  "table": {
+    "id":          "#",
+    "name":        "Building Name",
+    "floors":      "Floors",
+    "departments": "Departments",
+    "rooms":       "Rooms",
+    "manager":     "Manager",
+    "status":      "Status",
+    "actions":     "Actions"
+  },
+
+  "statuses": {
+    "active":      "Active",
+    "inactive":    "Inactive",
+    "maintenance": "Maintenance"
+  },
+
+  "actions": {
+    "viewReport":  "View Report",
+    "maintenance": "Set Maintenance",
+    "deactivate":  "Deactivate"
+  }
+}

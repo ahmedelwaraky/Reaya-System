@@ -5,15 +5,15 @@ import DataTable   from "../../../component/ui/DataTable";
 import StatusBadge from "../../../component/ui/StatusBadge";
 import RowActions  from "../../../component/ui/RowActions";
 
-import { STAFF_DATA } from "../api/staff.api";
+import { EMPLOYEE_DATA } from "../api/employees.api";
 import { Ban, FileText, Key, RefreshCw } from "lucide-react";
 
-export default function StaffTable() {
+export default function EmployeesTable() {
   const { t }             = useTranslation("employees");
   const [search, setSearch] = useState("");
 
   /* ── Map keys → translated labels ───────── */
-  const allRows = STAFF_DATA.map((r) => ({
+  const allRows = EMPLOYEE_DATA.map((r) => ({
     ...r,
     role: t(`roles.${r.roleKey}`),
     dept: t(`departments.${r.deptKey}`),

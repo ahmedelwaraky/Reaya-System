@@ -3,94 +3,89 @@ import { CheckCircle2, Clock, XCircle, AlertTriangle, Info, Sparkles, Ban } from
 
 const VARIANTS = {
   success: {
-    icon: CheckCircle2,
-    dot:  "#10b981",
-    text: "#059669",
-    bg:   "#f0fdf4",
+    dot:    "#10b981",
+    text:   "#059669",
+    bg:     "#f0fdf4",
     border: "#bbf7d0",
   },
   leave: {
-    icon: Clock,
-    dot:  "#a855f7",
-    text: "#9333ea",
-    bg:   "#faf5ff",
+    dot:    "#a855f7",
+    text:   "#9333ea",
+    bg:     "#faf5ff",
     border: "#e9d5ff",
   },
   warning: {
-    icon: AlertTriangle,
-    dot:  "#f59e0b",
-    text: "#d97706",
-    bg:   "#fffbeb",
+    dot:    "#f59e0b",
+    text:   "#d97706",
+    bg:     "#fffbeb",
     border: "#fde68a",
   },
   danger: {
-    icon: XCircle,
-    dot:  "#ef4444",
-    text: "#dc2626",
-    bg:   "#fef2f2",
+    dot:    "#ef4444",
+    text:   "#dc2626",
+    bg:     "#fef2f2",
     border: "#fecaca",
   },
   info: {
-    icon: Info,
-    dot:  "#3b82f6",
-    text: "#2563eb",
-    bg:   "#eff6ff",
+    dot:    "#3b82f6",
+    text:   "#2563eb",
+    bg:     "#eff6ff",
     border: "#bfdbfe",
   },
   primary: {
-    icon: Sparkles,
-    dot:  "#1f7ead",
-    text: "#1f7ead",
-    bg:   "#f0f9ff",
+    dot:    "#1f7ead",
+    text:   "#1f7ead",
+    bg:     "#f0f9ff",
     border: "#bae6fd",
   },
   neutral: {
-    icon: Ban,
-    dot:  "#9ca3af",
-    text: "#6b7280",
-    bg:   "#f9fafb",
+    dot:    "#9ca3af",
+    text:   "#6b7280",
+    bg:     "#f9fafb",
     border: "#e5e7eb",
   },
 };
 
 const STATUS_MAP = {
-  active:   "success",
-  leave:    "leave",
-  inactive: "danger",
-  banned:   "danger",
-  pending:  "warning",
-  review:   "info",
-  new:      "primary",
+  active:      "success",
+  leave:       "leave",
+  inactive:    "danger",
+  banned:      "danger",
+  pending:     "warning",
+  review:      "info",
+  new:         "primary",
+  maintenance: "warning",  // ✅
 };
 
 /**
- * @param {string}  status     — "active" | "leave" | "pending" ...
+ * @param {string}  status     — "active" | "leave" | "pending" | "maintenance" ...
  * @param {string}  variant    — override (اختياري)
  * @param {string}  label      — نص مخصص (اختياري)
- * @param {string}  namespace  — i18n namespace
- * @param {boolean} showIcon   — default: true
+ * @param {string}  namespace  — i18n namespace (default: "translation")
  */
 export default function StatusBadge({
   status,
   variant,
   label,
-  namespace = "employees",
+  namespace = "translation",
 }) {
   const { t } = useTranslation(namespace);
 
   const resolvedVariant = variant ?? STATUS_MAP[status] ?? "neutral";
   const v    = VARIANTS[resolvedVariant] ?? VARIANTS.neutral;
-  const text = label ?? (status ? t(`status.${status}`, { defaultValue: status }) : "");
+
+  // ✅ Fix: statuses.{status} بدل status.{status}
+  const text = label ?? (status ? t(`statuses.${status}`, { defaultValue: status }) : "");
 
   return (
     <span
       style={{
         display:        "inline-flex",
         alignItems:     "center",
-        justifyContent: "center",        // ✅ نص في المنتصف دايماً
+        justifyContent: "center",
         gap:            "5px",
-        width:          "90px",          // ✅ عرض ثابت لكل الحالات
-        padding:        "3px 0",         // ✅ padding بس رأسي — العرض ثابت
+        width:          "90px",
+        padding:        "3px 0",
         borderRadius:   "999px",
         fontSize:       "12px",
         fontWeight:     "500",

@@ -1,0 +1,42 @@
+{
+  "title": "Departments",
+
+  "stats": {
+    "total":    "Total Departments",
+    "doctors":  "Total Doctors",
+    "rooms":    "Total Rooms",
+    "patients": "Total Patients"
+  },
+
+  "charts": {
+    "byRooms":   "Rooms by Department",
+    "byDoctors": "Doctors per Department"
+  },
+
+  "deptNames": {
+    "cardiology":    "Emergency",
+    "orthopedics":   "Cardiology",
+    "pediatrics":    "Internal",
+    "neurology":     "Orthopedics",
+    "obstetrics":    "Obstetrics",
+    "pediatricsDep": "Pediatrics"
+  },
+
+  "status": {
+    "active":   "Active",
+    "inactive": "Inactive"
+  },
+
+  "table": {
+    "id":      "#",
+    "name":    "Department Name",
+    "head":    "Head of Department",
+    "doctors": "Total Doctors",
+    "rooms":   "Rooms",
+    "status":  "Status",
+    "actions": "Actions"
+  },
+
+  "search": "Search...",
+  "addNew": "+ Add New"
+}

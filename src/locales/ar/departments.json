@@ -1,0 +1,42 @@
+{
+  "title": "الأقسام",
+
+  "stats": {
+    "total":    "إجمالي الأقسام",
+    "doctors":  "إجمالي الأطباء",
+    "rooms":    "إجمالي الغرف",
+    "patients": "إجمالي المرضى"
+  },
+
+  "charts": {
+    "byRooms":   "الغرف حسب القسم",
+    "byDoctors": "الأطباء لكل قسم"
+  },
+
+  "deptNames": {
+    "cardiology":    "الطوارئ",
+    "orthopedics":   "القلب",
+    "pediatrics":    "الباطنية",
+    "neurology":     "العظام",
+    "obstetrics":    "النساء",
+    "pediatricsDep": "الأطفال"
+  },
+
+  "status": {
+    "active":   "نشط",
+    "inactive": "غير نشط"
+  },
+
+  "table": {
+    "id":      "الرقم",
+    "name":    "اسم القسم",
+    "head":    "رئيس القسم",
+    "doctors": "إجمالي الأطباء",
+    "rooms":   "الغرف",
+    "status":  "الحالة",
+    "actions": "الإجراءات"
+  },
+
+  "search": "بحث...",
+  "addNew": "+ إضافة"
+}

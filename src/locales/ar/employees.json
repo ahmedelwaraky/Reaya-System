@@ -1,0 +1,55 @@
+{
+  "title": "الموظفون",
+
+  "stats": {
+    "total":      "إجمالي الموظفين",
+    "active":     "الموظفون النشطون",
+    "onLeave":    "في إجازة",
+    "departments":"الأقسام"
+  },
+
+  "charts": {
+    "byDepartment": "الموظفون حسب القسم",
+    "byRole":       "الموظفون حسب الدور"
+  },
+
+  "departments": {
+    "admin":      "الإدارة",
+    "cardiology": "القلب",
+    "pediatrics": "الأطفال",
+    "lab":        "المختبر",
+    "pharmacy":   "الصيدلية",
+    "finance":    "المالية",
+    "radiology":  "الأشعة",
+    "emergency":  "الطوارئ",
+    "reception":  "الاستقبال"
+  },
+
+  "roles": {
+    "sysAdmin":    "مدير النظام",
+    "nurse":       "ممرضة",
+    "labTech":     "فني مختبر",
+    "receptionist":"موظفة استقبال",
+    "pharmacist":  "صيدلي",
+    "accountant":  "محاسبة",
+    "radiologist": "فني أشعة"
+  },
+
+  "table": {
+    "id":       "الرقم",
+    "name":     "اسم الموظف",
+    "role":     "الدور",
+    "dept":     "القسم",
+    "phone":    "الهاتف",
+    "status":   "الحالة",
+    "actions":  "الإجراءات"
+  },
+
+  "status": {
+    "active": "نشط",
+    "leave":  "إجازة"
+  },
+
+  "search":     "بحث...",
+  "addNew":     "+ إضافة"
+}

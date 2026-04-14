@@ -1,0 +1,51 @@
+{
+  "title": "Appointments",
+
+  "stats": {
+    "today":     "Today's Appointments",
+    "confirmed": "Confirmed",
+    "pending":   "Pending",
+    "cancelled": "Cancelled"
+  },
+
+  "charts": {
+    "weekly": "Weekly Appointments",
+    "byType": "Appointment Types"
+  },
+
+  "days": {
+    "sat": "Sat",
+    "sun": "Sun",
+    "mon": "Mon",
+    "tue": "Tue",
+    "wed": "Wed",
+    "thu": "Thu"
+  },
+
+  "types": {
+    "checkup":   "Checkup",
+    "followup":  "Follow-up",
+    "emergency": "Emergency",
+    "surgery":   "Surgery"
+  },
+
+  "status": {
+    "confirmed": "Confirmed",
+    "pending":   "Pending",
+    "cancelled": "Cancelled"
+  },
+
+  "table": {
+    "id":      "#",
+    "patient": "Patient Name",
+    "doctor":  "Doctor Name",
+    "date":    "Date",
+    "time":    "Time",
+    "type":    "Type",
+    "status":  "Status",
+    "actions": "Actions"
+  },
+
+  "search": "Search...",
+  "addNew": "+ Add New"
+}

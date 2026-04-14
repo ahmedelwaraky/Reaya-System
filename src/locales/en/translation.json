@@ -1,0 +1,37 @@
+{
+  "search_placeholder": "Search...",
+  "hospital_name": "Care Management",
+  "nav": {
+    "dashboard":     "Dashboard",
+    "employees":     "Employees",
+    "doctors":       "Doctors",
+    "patients":      "Patients",
+    "appointments":  "Appointments",
+    "invoices":      "Invoices",
+    "insurance":     "Insurance",
+    "departments":   "Departments",
+    "rooms":         "Rooms",
+    "buildings":     "Buildings",
+    "diagnoses":     "Diagnoses",
+    "care":          "Care & Services",
+    "prescriptions": "Prescriptions",
+    "reports":       "Reports",
+    "revenue":       "Revenue",
+    "leaves":        "Leaves",
+    "organization":  "Organization",
+    "geography":     "Geography"
+  },
+  "user": {
+    "name": "Ahmed Al-Malki",
+    "role": "System Admin",
+    "initials": "A"
+  },
+  "actions": {
+    "toggle_theme": "Toggle theme",
+    "toggle_lang":  "Change language",
+    "notifications":"Notifications",
+    "logout":       "Logout",
+    "collapse":     "Collapse sidebar",
+    "expand":       "Expand sidebar"
+  }
+}

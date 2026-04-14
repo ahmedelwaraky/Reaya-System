@@ -1,0 +1,44 @@
+{
+  "title": "Doctors",
+
+  "stats": {
+    "total":     "Total Doctors",
+    "active":    "Active Doctors",
+    "onLeave":   "On Leave",
+    "senior":    "Senior Doctors"
+  },
+
+  "charts": {
+    "consultations": "Consultations per Doctor",
+    "bySpecialty":   "Doctors by Specialty"
+  },
+
+  "departments": {
+    "cardiology":   "Cardiology",
+    "orthopedics":  "Orthopedics",
+    "pediatrics":   "Pediatrics",
+    "neurology":    "Neurology",
+    "general":      "General",
+    "dermatology":  "Dermatology",
+    "internal":     "Internal Medicine"
+  },
+
+  "table": {
+    "id":         "#",
+    "name":       "Doctor Name",
+    "dept":       "Department",
+    "phone":      "Phone",
+    "experience": "Experience",
+    "status":     "Status",
+    "actions":    "Actions"
+  },
+
+  "status": {
+    "active": "Active",
+    "leave":  "On Leave"
+  },
+
+  "yearsExp":   "{{count}} yrs",
+  "search":     "Search...",
+  "addNew":     "+ Add New"
+}

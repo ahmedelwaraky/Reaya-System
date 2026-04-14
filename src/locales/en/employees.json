@@ -1,0 +1,55 @@
+{
+  "title": "Employees",
+
+  "stats": {
+    "total":      "Total Employees",
+    "active":     "Active Employees",
+    "onLeave":    "On Leave",
+    "departments":"Departments"
+  },
+
+  "charts": {
+    "byDepartment": "Employees by Department",
+    "byRole":       "Employees by Role"
+  },
+
+  "departments": {
+    "admin":      "Administration",
+    "cardiology": "Cardiology",
+    "pediatrics": "Pediatrics",
+    "lab":        "Laboratory",
+    "pharmacy":   "Pharmacy",
+    "finance":    "Finance",
+    "radiology":  "Radiology",
+    "emergency":  "Emergency",
+    "reception":  "Reception"
+  },
+
+  "roles": {
+    "sysAdmin":    "System Admin",
+    "nurse":       "Nurse",
+    "labTech":     "Lab Technician",
+    "receptionist":"Receptionist",
+    "pharmacist":  "Pharmacist",
+    "accountant":  "Accountant",
+    "radiologist": "Radiologist"
+  },
+
+  "table": {
+    "id":       "#",
+    "name":     "Employee Name",
+    "role":     "Role",
+    "dept":     "Department",
+    "phone":    "Phone",
+    "status":   "Status",
+    "actions":  "Actions"
+  },
+
+  "status": {
+    "active": "Active",
+    "leave":  "On Leave"
+  },
+
+  "search":     "Search...",
+  "addNew":     "+ Add New"
+}

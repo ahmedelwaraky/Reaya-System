@@ -1,0 +1,55 @@
+{
+  "title": "المرضى",
+
+  "stats": {
+    "total":    "إجمالي المرضى",
+    "active":   "المرضى النشطون",
+    "insured":  "المرضى المؤمنون",
+    "critical": "الحالات الحرجة"
+  },
+
+  "charts": {
+    "byGender": "المرضى حسب الجنس",
+    "byMonth":  "المرضى حسب الشهر"
+  },
+
+  "months": {
+    "jan": "يناير",
+    "feb": "فبراير",
+    "mar": "مارس",
+    "apr": "أبريل",
+    "may": "مايو",
+    "jun": "يونيو"
+  },
+
+  "gender": {
+    "male":   "ذكور",
+    "female": "إناث",
+    "child":  "أطفال"
+  },
+
+  "departments": {
+    "cardiology":  "القلب",
+    "orthopedics": "العظام",
+    "pediatrics":  "الأطفال",
+    "neurology":   "الأعصاب",
+    "general":     "العام"
+  },
+
+  "table": {
+    "id":      "الرقم",
+    "name":    "اسم المريض",
+    "dept":    "القسم",
+    "phone":   "الهاتف",
+    "status":  "الحالة",
+    "actions": "الإجراءات"
+  },
+
+  "status": {
+    "active":   "نشط",
+    "inactive": "غير نشط"
+  },
+
+  "search": "بحث...",
+  "addNew": "+ إضافة"
+}

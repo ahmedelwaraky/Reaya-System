@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;500;600;700&display=swap');
+@import "tailwindcss";
+
+html,
+body,
+#root {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+
+body {
+  font-family: "Cairo", "Segoe UI", Tahoma, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  /* ❌ لا تحط direction: rtl هنا — i18n بيتحكم فيها على documentElement */
+}
+
+/* ── LIGHT ─────────────────────────────── */
+:root {
+  --c-bg:          #ffffff;
+  --c-surface:     #f0f2f5;
+  --c-border:      #e5e9ed;
+  --c-btn-bg:      #f4f7fa;
+  --c-text:        #1a2530;
+  --c-sub:         #8fa3b5;
+  --c-icon:        #8fa3b5;
+  --c-icon-hov:    #1f7ead;
+  --c-accent:      #1f7ead;
+  --c-active-item: #d6eef7;
+  --c-active-tx:   #155e80;
+  --c-hov-bg:      #f4f7fa;
+  --c-hov-tx:      #374151;
+}
+
+/* ── DARK ──────────────────────────────── */
+.dark {
+  --c-bg:          #12191e;
+  --c-surface:     #0d1418;
+  --c-border:      #1a2730;
+  --c-btn-bg:      #0d1418;
+  --c-text:        #e8edf2;
+  --c-sub:         #4e6a82;
+  --c-icon:        #4e6a82;
+  --c-icon-hov:    #1f7ead;
+  --c-accent:      #1f7ead;
+  --c-active-item: rgba(31, 126, 173, 0.15);
+  --c-active-tx:   #5bb8dc;
+  --c-hov-bg:      #1a2730;
+  --c-hov-tx:      #c8dcf0;
+}

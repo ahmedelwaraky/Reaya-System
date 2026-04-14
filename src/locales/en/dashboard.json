@@ -1,0 +1,44 @@
+{
+  "welcome":      "Welcome",
+  "overview":     "Overview",
+
+  "stats": {
+    "totalPatients":     "Total Patients",
+    "totalDoctors":      "Total Doctors",
+    "todayAppointments": "Today's Appointments",
+    "monthlyRevenue":    "Monthly Revenue"
+  },
+
+  "weeklyPatients": "Weekly Patients",
+  "departmentDist": "Department Distribution",
+
+  "days": {
+    "sat": "Sat",
+    "sun": "Sun",
+    "mon": "Mon",
+    "tue": "Tue",
+    "wed": "Wed",
+    "thu": "Thu",
+    "fri": "Fri"
+  },
+
+  "departments": {
+    "cardiology":  "Cardiology",
+    "orthopedics": "Orthopedics",
+    "pediatrics":  "Pediatrics",
+    "neurology":   "Neurology",
+    "general":     "General"
+  },
+
+  "recentActivities": "Recent Activities",
+  "minutesAgo":       "{{count}} min ago",
+  "hoursAgo":         "{{count}} hr ago",
+
+  "activities": {
+    "newPatient":         "New patient registered - Mohammed Al-Omari",
+    "appointmentConfirm": "Appointment confirmed - Dr. Sara Al-Qahtani",
+    "invoiceIssued":      "Invoice issued #INV-1023",
+    "insuranceUpdated":   "Insurance data updated - Fahad Al-Dosari",
+    "newDoctor":          "New doctor added - Dr. Khalid Al-Mutairi"
+  }
+}

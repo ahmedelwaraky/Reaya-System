@@ -1,0 +1,44 @@
+{
+  "title": "الأطباء",
+
+  "stats": {
+    "total":     "إجمالي الأطباء",
+    "active":    "الأطباء النشطون",
+    "onLeave":   "في إجازة",
+    "senior":    "أطباء كبار"
+  },
+
+  "charts": {
+    "consultations": "الاستشارات لكل طبيب",
+    "bySpecialty":   "الأطباء حسب التخصص"
+  },
+
+  "departments": {
+    "cardiology":   "القلب",
+    "orthopedics":  "العظام",
+    "pediatrics":   "الأطفال",
+    "neurology":    "الأعصاب",
+    "general":      "العام",
+    "dermatology":  "الجلدية",
+    "internal":     "الباطنية"
+  },
+
+  "table": {
+    "id":         "الرقم",
+    "name":       "اسم الطبيب",
+    "dept":       "القسم",
+    "phone":      "الهاتف",
+    "experience": "الخبرة",
+    "status":     "الحالة",
+    "actions":    "الإجراءات"
+  },
+
+  "status": {
+    "active": "نشط",
+    "leave":  "إجازة"
+  },
+
+  "yearsExp":   "{{count}} سنة",
+  "search":     "بحث...",
+  "addNew":     "+ إضافة"
+}

@@ -1,0 +1,37 @@
+{
+  "search_placeholder": "بحث...",
+  "hospital_name": "إدارة الرعاية الصحية",
+  "nav": {
+    "dashboard":     "لوحة التحكم",
+    "employees":     "الموظفون",
+    "doctors":       "الأطباء",
+    "patients":      "المرضى",
+    "appointments":  "المواعيد",
+    "invoices":      "الفواتير",
+    "insurance":     "التأمين",
+    "departments":   "الأقسام",
+    "rooms":         "الغرف",
+    "buildings":     "المباني",
+    "diagnoses":     "التشخيصات",
+    "care":          "الرعاية والخدمات",
+    "prescriptions": "الوصفات",
+    "reports":       "التقارير",
+    "revenue":       "الإيرادات",
+    "leaves":        "الإجازات",
+    "organization":  "المؤسسة",
+    "geography":     "المناطق الجغرافية"
+  },
+  "user": {
+    "name": "أحمد المالكي",
+    "role": "مدير النظام",
+    "initials": "أ"
+  },
+  "actions": {
+    "toggle_theme": "تبديل المظهر",
+    "toggle_lang":  "تغيير اللغة",
+    "notifications":"الإشعارات",
+    "logout":       "تسجيل الخروج",
+    "collapse":     "طي القائمة",
+    "expand":       "توسيع القائمة"
+  }
+}

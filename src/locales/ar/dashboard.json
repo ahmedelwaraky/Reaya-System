@@ -1,0 +1,44 @@
+{
+  "welcome":      "مرحباً",
+  "overview":     "نظرة عامة",
+
+  "stats": {
+    "totalPatients":     "إجمالي المرضى",
+    "totalDoctors":      "إجمالي الأطباء",
+    "todayAppointments": "مواعيد اليوم",
+    "monthlyRevenue":    "الإيرادات الشهرية"
+  },
+
+  "weeklyPatients": "المرضى الأسبوعيين",
+  "departmentDist": "توزيع الأقسام",
+
+  "days": {
+    "sat": "السبت",
+    "sun": "الأحد",
+    "mon": "الاثنين",
+    "tue": "الثلاثاء",
+    "wed": "الأربعاء",
+    "thu": "الخميس",
+    "fri": "الجمعة"
+  },
+
+  "departments": {
+    "cardiology":  "القلب",
+    "orthopedics": "العظام",
+    "pediatrics":  "الأطفال",
+    "neurology":   "الأعصاب",
+    "general":     "العام"
+  },
+
+  "recentActivities": "آخر الأنشطة",
+  "minutesAgo":       "منذ {{count}} دقيقة",
+  "hoursAgo":         "منذ {{count}} ساعة",
+
+  "activities": {
+    "newPatient":         "تم تسجيل مريض جديد - محمد العمري",
+    "appointmentConfirm": "موعد مؤكد - د. سارة القحطاني",
+    "invoiceIssued":      "فاتورة صادرة #INV-1023",
+    "insuranceUpdated":   "تحديث بيانات التأمين - فهد الدوسري",
+    "newDoctor":          "إضافة طبيب جديد - د. خالد المطيري"
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "title": "Patients",
+
+  "stats": {
+    "total":    "Total Patients",
+    "active":   "Active Patients",
+    "insured":  "Insured Patients",
+    "critical": "Critical Cases"
+  },
+
+  "charts": {
+    "byGender": "Patients by Gender",
+    "byMonth":  "Patients by Month"
+  },
+
+  "months": {
+    "jan": "Jan",
+    "feb": "Feb",
+    "mar": "Mar",
+    "apr": "Apr",
+    "may": "May",
+    "jun": "Jun"
+  },
+
+  "gender": {
+    "male":   "Male",
+    "female": "Female",
+    "child":  "Children"
+  },
+
+  "departments": {
+    "cardiology":  "Cardiology",
+    "orthopedics": "Orthopedics",
+    "pediatrics":  "Pediatrics",
+    "neurology":   "Neurology",
+    "general":     "General"
+  },
+
+  "table": {
+    "id":      "#",
+    "name":    "Patient Name",
+    "dept":    "Department",
+    "phone":   "Phone",
+    "status":  "Status",
+    "actions": "Actions"
+  },
+
+  "status": {
+    "active":   "Active",
+    "inactive": "Inactive"
+  },
+
+  "search": "Search...",
+  "addNew": "+ Add New"
+}

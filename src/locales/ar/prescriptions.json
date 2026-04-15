@@ -1,0 +1,61 @@
+{
+  "title":  "الوصفات الطبية",
+  "addNew": "+ إضافة",
+  "search": "بحث...",
+
+  "stats": {
+    "total":         "إجمالي الوصفات",
+    "active":        "الوصفات النشطة",
+    "pendingRefill": "في انتظار التجديد",
+    "interactions":  "تفاعلات دوائية"
+  },
+
+  "charts": {
+    "perMonth":     "الوصفات الشهرية",
+    "topDiagnoses": "أبرز التشخيصات",
+    "issued":       "وصفات جديدة",
+    "refills":      "تجديدات"
+  },
+
+  "months": {
+    "jan": "يناير",
+    "feb": "فبراير",
+    "mar": "مارس",
+    "apr": "أبريل",
+    "may": "مايو",
+    "jun": "يونيو",
+    "jul": "يوليو"
+  },
+
+  "diagnoses": {
+    "hypertension": "ضغط الدم",
+    "diabetes2":    "السكري",
+    "arthritis":    "التهابات مفاصل",
+    "cholesterol":  "كوليسترول مرتفع",
+    "throatInflam": "التهاب حلق",
+    "migraine":     "صداع نصفي",
+    "other":        "أخرى"
+  },
+
+  "table": {
+    "name":      "الاسم",
+    "patient":   "اسم المريض",
+    "doctor":    "اسم الطبيب",
+    "diagnosis": "التشخيص",
+    "date":      "التاريخ",
+    "status":    "الحالة",
+    "actions":   "الإجراءات"
+  },
+
+  "statuses": {
+    "active":    "نشط",
+    "completed": "مكتمل",
+    "pending":   "معلق"
+  },
+
+  "actions": {
+    "viewReport":  "عرض التقرير",
+    "refill":      "تجديد الوصفة",
+    "interaction": "تفاعل دوائي"
+  }
+}

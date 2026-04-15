@@ -1,0 +1,33 @@
+{
+  "title":  "Geo Management",
+  "addNew": "+ Add",
+  "search": "Search...",
+
+  "stats": {
+    "countries":       "Total Countries",
+    "cities":          "Total Cities",
+    "hospitals":       "Total Hospitals",
+    "activeCountries": "Active Countries"
+  },
+
+  "charts": {
+    "citiesByCountry":  "Cities by Country",
+    "branchesByRegion": "Branches by Region"
+  },
+
+  "table": {
+    "name":      "Name",
+    "country":   "Country",
+    "code":      "Code",
+    "cities":    "Cities",
+    "hospitals": "Hospitals",
+    "status":    "Status",
+    "actions":   "Actions"
+  },
+
+  "statuses": {
+    "active":  "Active",
+    "soon":    "Coming Soon",
+    "planned": "Planned"
+  }
+}

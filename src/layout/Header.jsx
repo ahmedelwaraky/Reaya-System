@@ -1,9 +1,9 @@
 import { useTranslation } from "react-i18next";
-import { useTheme } from "../core/ThemeContext";
-import { Sun, Moon, Globe, Bell, Search, LogOut } from "lucide-react";
+import { useTheme }       from "../core/ThemeContext";
+import { Sun, Moon, Globe, Bell, Search, LogOut, Menu } from "lucide-react";
 
 /* ─────────────────────────────────────────────
-   زر أيقونة مشترك
+   Icon Button
 ───────────────────────────────────────────── */
 function IconBtn({ children, onClick, active = false, badge = 0, title }) {
   return (
@@ -21,13 +21,10 @@ function IconBtn({ children, onClick, active = false, badge = 0, title }) {
       ].join(" ")}
     >
       {children}
-
       {badge > 0 && (
-        <span
-          className="absolute -top-1 -right-1 bg-red-500 text-white
-                     text-[10px] font-bold rounded-full min-w-[16px] h-4
-                     flex items-center justify-center px-0.5 pointer-events-none"
-        >
+        <span className="absolute -top-1 -right-1 bg-red-500 text-white
+                         text-[10px] font-bold rounded-full min-w-[16px] h-4
+                         flex items-center justify-center px-0.5 pointer-events-none">
           {badge}
         </span>
       )}
@@ -37,11 +34,12 @@ function IconBtn({ children, onClick, active = false, badge = 0, title }) {
 
 /* ─────────────────────────────────────────────
    Header
+   @prop {function} onOpenSidebar — يفتح الـ sidebar على موبايل
 ───────────────────────────────────────────── */
-export default function Header() {
+export default function Header({ onMenuClick }) {
   const { isDark, toggleTheme } = useTheme();
-  const { t, i18n } = useTranslation();
-  const isRtl = i18n.language === "ar";
+  const { t, i18n }             = useTranslation();
+  const isRtl                   = i18n.language === "ar";
 
   const toggleLang = () => i18n.changeLanguage(isRtl ? "en" : "ar");
 
@@ -50,6 +48,18 @@ export default function Header() {
       className="flex items-center gap-3 px-4 h-14 flex-shrink-0
                  bg-[var(--c-bg)] border-b border-[var(--c-border)]"
     >
+      {/* ── Hamburger (mobile only) ─────────── */}
+      <button
+        onClick={onMenuClick}
+        aria-label="open sidebar"
+        className="lg:hidden w-9 h-9 rounded-[10px] flex items-center justify-center
+                   flex-shrink-0 border border-[var(--c-border)] bg-[var(--c-btn-bg)]
+                   text-[var(--c-icon)] hover:text-[var(--c-accent)]
+                   hover:border-[var(--c-accent)] transition-all duration-150"
+      >
+        <Menu size={18} />
+      </button>
+
       {/* ── Search ─────────────────────────── */}
       <div
         className={[
@@ -75,11 +85,7 @@ export default function Header() {
 
       {/* ── Action buttons ──────────────────── */}
       <div className="flex items-center gap-2">
-        <IconBtn
-          onClick={toggleTheme}
-          active={isDark}
-          title={t("actions.toggle_theme")}
-        >
+        <IconBtn onClick={toggleTheme} active={isDark} title={t("actions.toggle_theme")}>
           {isDark ? <Sun size={16} /> : <Moon size={16} />}
         </IconBtn>
 
@@ -100,16 +106,12 @@ export default function Header() {
           isRtl ? "flex-row-reverse" : "",
         ].join(" ")}
       >
-        {/* Avatar */}
-        <div
-          className="w-[34px] h-[34px] rounded-full flex-shrink-0
-                     bg-[var(--c-accent)] text-white font-bold text-sm
-                     flex items-center justify-center select-none"
-        >
+        <div className="w-[34px] h-[34px] rounded-full flex-shrink-0
+                        bg-[var(--c-accent)] text-white font-bold text-sm
+                        flex items-center justify-center select-none">
           {t("user.initials")}
         </div>
 
-        {/* Name & Role */}
         <div className={`flex flex-col leading-tight ${isRtl ? "text-right" : "text-left"}`}>
           <span className="text-[13px] font-semibold text-[var(--c-text)] whitespace-nowrap">
             {t("user.name")}
@@ -119,7 +121,6 @@ export default function Header() {
           </span>
         </div>
 
-        {/* Logout */}
         <IconBtn title={t("actions.logout")}>
           <LogOut size={15} className={isRtl ? "scale-x-[-1]" : ""} />
         </IconBtn>

@@ -1,0 +1,39 @@
+{
+  "pageTitle":   "التقارير",
+  "savedReports": "التقارير المحفوظة",
+
+  "sections": {
+    "financial":  " التقارير المالية",
+    "clinical":   " التقارير الطبية",
+    "operations": "تقارير العمليات",
+    "hr":         " الموارد البشرية والمباني",
+    "saved":      "التقارير المحفوظة"
+  },
+
+  "charts": {
+    "monthlyRevenue":        "الإيرادات الشهرية",
+    "prescriptionsMonthly":  "الوصفات الطبية الشهرية",
+    "patientsByDept":        "المرضى حسب القسم",
+    "diagnosesByCat":        "الفحوصات حسب الفئة",
+    "insuranceDist":         "توزيع التأمين",
+    "appointmentsMonthly":   "المواعيد الشهرية",
+    "roomsOccupancy":        "إشغال الغرف (%)",
+    "employeesByDept":       "الموظفون حسب القسم",
+    "buildingsFloors":       "الطوابق لكل مبنى"
+  },
+
+  "reportNames": {
+    "monthlyPatients":  "تقرير المرضى الشهري",
+    "q1Revenue":        "تقرير الإيرادات Q1",
+    "doctorsPerf":      "تقرير أداء الأطباء",
+    "q1Insurance":      "تقرير التأمين الربعي",
+    "roomsOccupancy":   "تقرير إشغال الغرف",
+    "employeesLeave":   "تقرير إجازات الموظفين",
+    "prescriptions":    "تقرير الوصفات الطبية",
+    "diagnosesStats":   "إحصاءات الفحوصات",
+    "careServices":     "تقرير خدمات الرعاية",
+    "buildingsUsage":   "تقرير استخدام المباني",
+    "appointmentsStat": "إحصاءات المواعيد",
+    "invoicesSummary":  "ملخص الفواتير"
+  }
+}

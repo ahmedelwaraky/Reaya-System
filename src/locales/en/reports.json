@@ -1,0 +1,39 @@
+{
+  "pageTitle":    "Reports",
+  "savedReports": "Saved Reports",
+
+  "sections": {
+    "financial":  "Financial Reports",
+    "clinical":   "Clinical Reports",
+    "operations": "Operations Reports",
+    "hr":         "HR & Buildings",
+    "saved":      "Saved Reports"
+  },
+
+  "charts": {
+    "monthlyRevenue":        "Monthly Revenue",
+    "prescriptionsMonthly":  "Monthly Prescriptions",
+    "patientsByDept":        "Patients by Department",
+    "diagnosesByCat":        "Exams by Category",
+    "insuranceDist":         "Insurance Distribution",
+    "appointmentsMonthly":   "Monthly Appointments",
+    "roomsOccupancy":        "Rooms Occupancy (%)",
+    "employeesByDept":       "Employees by Department",
+    "buildingsFloors":       "Floors per Building"
+  },
+
+  "reportNames": {
+    "monthlyPatients":  "Monthly Patients Report",
+    "q1Revenue":        "Q1 Revenue Report",
+    "doctorsPerf":      "Doctors Performance Report",
+    "q1Insurance":      "Q1 Insurance Report",
+    "roomsOccupancy":   "Rooms Occupancy Report",
+    "employeesLeave":   "Employees Leave Report",
+    "prescriptions":    "Prescriptions Report",
+    "diagnosesStats":   "Diagnoses Statistics",
+    "careServices":     "Care Services Report",
+    "buildingsUsage":   "Buildings Usage Report",
+    "appointmentsStat": "Appointments Statistics",
+    "invoicesSummary":  "Invoices Summary"
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "pageTitle": "الإيرادات",
+  "currency":  "ر.س",
+
+  "stats": {
+    "monthlyRevenue": "إيرادات الشهر",
+    "expenses":       "المصروفات",
+    "netProfit":      "صافي الربع",
+    "collectionRate": "معدل التحصيل",
+    "totalInvoices":  "إجمالي الفواتير",
+    "paid":           "مدفوعة",
+    "pending":        "معلقة",
+    "overdue":        "متأخرة"
+  },
+
+  "charts": {
+    "revenueVsExpenses": "المصروفات vs الإيرادات",
+    "dailyRevenue":      "الإيرادات اليومية",
+    "revenueByDept":     "الإيرادات حسب القسم",
+    "paymentMethods":    "طرق الدفع",
+    "netProfitTrend":    "اتجاه صافي الربح"
+  },
+
+  "legend": {
+    "revenue":  "الإيرادات",
+    "expenses": "المصروفات"
+  },
+
+  "topPatients": {
+    "title":    "أعلى المرضى دفعاً",
+    "name":     "اسم المريض",
+    "invoices": "عدد الفواتير",
+    "total":    "الإجمالي",
+    "status":   "الحالة"
+  },
+
+  "statuses": {
+    "paid":    "مدفوع",
+    "pending": "معلق",
+    "overdue": "متأخر"
+  }
+}

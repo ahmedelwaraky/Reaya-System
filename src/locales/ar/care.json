@@ -1,0 +1,75 @@
+{
+  "title":    "الرعاية والخدمات",
+  "addNew":   "+ إضافة",
+  "search":   "بحث...",
+  "currency": "ر.س",
+
+  "stats": {
+    "total":       "إجمالي الخدمات",
+    "usedToday":   "خدمات اليوم",
+    "avgCost":     "متوسط تكلفة الخدمة",
+    "monthGrowth": "النمو الشهري"
+  },
+
+  "charts": {
+    "monthlyUsage": "الاستخدام الشهري للخدمات",
+    "byCategory":   "الخدمات حسب الفئة",
+    "line1":        "الخدمات المقدمة",
+    "line2":        "الخدمات المجدولة"
+  },
+
+  "months": {
+    "jan": "يناير",
+    "feb": "فبراير",
+    "mar": "مارس",
+    "apr": "أبريل",
+    "may": "مايو",
+    "jun": "يونيو",
+    "jul": "يوليو"
+  },
+
+  "categories": {
+    "clinic": "عيادات",
+    "rehab":  "تأهيل",
+    "dental": "أسنان",
+    "peds":   "أطفال",
+    "obgyn":  "نساء",
+    "psych":  "نفسية",
+    "nephro": "كلى"
+  },
+
+  "serviceNames": {
+    "generalCheckup":    "كشف عام",
+    "teethCleaning":     "تنظيف أسنان",
+    "physioSession":     "جلسة علاج طبيعي",
+    "pregnancyFollowup": "متابعة حمل",
+    "childVaccine":      "تطعيم أطفال",
+    "psychSession":      "جلسة نفسية",
+    "kidneyDialysis":    "غسيل كلى",
+    "toothExtraction":   "خلع سن",
+    "speechTherapy":     "علاج نطق",
+    "postpartumCare":    "رعاية ما بعد الولادة",
+    "nutritionConsult":  "استشارة تغذية",
+    "pediatricConsult":  "استشارة أطفال"
+  },
+
+  "table": {
+    "code":     "الرمز",
+    "name":     "اسم الخدمة",
+    "category": "الفئة",
+    "price":    "السعر",
+    "status":   "الحالة",
+    "actions":  "الإجراءات"
+  },
+
+  "statuses": {
+    "active":   "متاح",
+    "inactive": "موقوف"
+  },
+
+  "actions": {
+    "viewReport":      "عرض التقرير",
+    "bookAppointment": "حجز موعد",
+    "deactivate":      "إيقاف"
+  }
+}

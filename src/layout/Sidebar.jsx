@@ -24,6 +24,7 @@ import {
   ChevronRight,
   Hospital,
   X,
+  Settings,
 } from "lucide-react";
 import logo from "../assets/images/icon1.png";
 const NAV_ITEMS = [
@@ -36,6 +37,8 @@ const NAV_ITEMS = [
   { key: "insurance", icon: Shield, path: "/insurance" },
   { key: "departments", icon: Building2, path: "/departments" },
   { key: "rooms", icon: Hotel, path: "/rooms" },
+  { key: "allotted-rooms", icon: Hotel, path: "/room-assignments" },
+  { key: "floors", icon: Building, path: "/floors" },
   { key: "buildings", icon: Building, path: "/buildings" },
   { key: "diagnoses", icon: FlaskConical, path: "/diagnoses" },
   { key: "care", icon: HeartPulse, path: "/care" },
@@ -45,6 +48,7 @@ const NAV_ITEMS = [
   { key: "leaves", icon: CalendarOff, path: "/leaves" },
   { key: "organization", icon: Landmark, path: "/organization" },
   { key: "geography", icon: Globe, path: "/geography" },
+  { key: "settings", icon: Settings, path: "/settings" },
 ];
 
 export default function Sidebar({ onClose }) {
@@ -152,7 +156,7 @@ export default function Sidebar({ onClose }) {
             className={({ isActive }) =>
               [
                 "group flex items-center w-full my-0.5 px-3.5 py-2.5",
-                "text-[14.5px] transition-colors duration-150 no-underline",
+                "text-[15px] font-semibold transition-colors duration-150 no-underline",
                 collapsed ? "lg:justify-center" : "",
                 isActive
                   ? "bg-[var(--c-active-item)] text-[var(--c-active-tx)] font-semibold"

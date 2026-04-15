@@ -11,6 +11,7 @@
     "insurance":     "التأمين",
     "departments":   "الأقسام",
     "rooms":         "الغرف",
+    "allotted-rooms":         "تخصيص الغرف",
     "buildings":     "المباني",
     "diagnoses":     "التشخيصات",
     "care":          "الرعاية والخدمات",
@@ -19,7 +20,10 @@
     "revenue":       "الإيرادات",
     "leaves":        "الإجازات",
     "organization":  "المؤسسة",
-    "geography":     "المناطق الجغرافية"
+    "geography":     "المناطق الجغرافية",
+    "settings":      "الإعدادات",
+    "floors":        "الطوابق"
+
   },
   "user": {
     "name": "أحمد المالكي",

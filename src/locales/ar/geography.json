@@ -1,0 +1,33 @@
+{
+  "title":  "إدارة الجغرافيا",
+  "addNew": "+ إضافة",
+  "search": "بحث...",
+
+  "stats": {
+    "countries":       "إجمالي الدول",
+    "cities":          "إجمالي المدن",
+    "hospitals":       "إجمالي المستشفيات",
+    "activeCountries": "الدول النشطة"
+  },
+
+  "charts": {
+    "citiesByCountry":  "المدن حسب الدولة",
+    "branchesByRegion": "الفروع حسب المنطقة"
+  },
+
+  "table": {
+    "name":      "م",
+    "country":   "الدولة",
+    "code":      "الرمز",
+    "cities":    "المدن",
+    "hospitals": "المستشفيات",
+    "status":    "الحالة",
+    "actions":   "الإجراءات"
+  },
+
+  "statuses": {
+    "active":  "نشط",
+    "soon":    "قريباً",
+    "planned": "مخطط"
+  }
+}

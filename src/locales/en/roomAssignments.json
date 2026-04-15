@@ -1,0 +1,47 @@
+{
+  "pageTitle":  "Room Assignments",
+  "assignRoom": "+ Assign Room",
+  "mapTitle":   "Room Map",
+  "search":     "Search...",
+  "noResults":  "No results found",
+
+  "stats": {
+    "total":       "Total",
+    "occupied":    "Occupied",
+    "available":   "Available",
+    "critical":    "Critical"
+  },
+
+  "filters": {
+    "all":         "All",
+    "occupied":    "Occupied",
+    "available":   "Available",
+    "critical":    "Critical",
+    "maintenance": "Maintenance"
+  },
+
+  "types": {
+    "private":  "Private",
+    "shared":   "Shared",
+    "vip":      "VIP",
+    "icu":      "ICU",
+    "maternity":"Maternity"
+  },
+
+  "table": {
+    "room":      "Room",
+    "floor":     "Floor",
+    "type":      "Type",
+    "patient":   "Patient",
+    "doctor":    "Doctor",
+    "admitDate": "Admit Date",
+    "status":    "Status"
+  },
+
+  "statuses": {
+    "occupied":    "Occupied",
+    "available":   "Available",
+    "critical":    "Critical",
+    "maintenance": "Maintenance"
+  }
+}

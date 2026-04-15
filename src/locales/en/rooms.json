@@ -30,7 +30,7 @@
     "maternity": "Maternity"
   },
 
-  "status": {
+  "statuses": {
     "available":   "Available",
     "occupied":    "Occupied",
     "maintenance": "Maintenance"

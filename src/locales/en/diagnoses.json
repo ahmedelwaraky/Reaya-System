@@ -1,0 +1,69 @@
+{
+  "title":    "Diagnoses",
+  "addNew":   "+ Add New",
+  "search":   "Search...",
+  "currency": "SAR",
+
+  "stats": {
+    "total":       "Total Exams",
+    "today":       "Today's Exams",
+    "avgWait":     "Avg. Wait Time",
+    "monthGrowth": "Monthly Growth"
+  },
+
+  "charts": {
+    "byCategory": "Exams by Category",
+    "dailyExams": "Daily Exams"
+  },
+
+  "categories": {
+    "lab":       "Lab",
+    "radiology": "Radiology",
+    "cardio":    "Cardiology"
+  },
+
+  "days": {
+    "sat": "Saturday",
+    "sun": "Sunday",
+    "mon": "Monday",
+    "tue": "Tuesday",
+    "wed": "Wednesday",
+    "thu": "Thursday"
+  },
+
+  "testNames": {
+    "cbc":         "Complete Blood Count",
+    "xray":        "X-Ray",
+    "mri":         "MRI Scan",
+    "ct":          "CT Scan",
+    "ecg":         "ECG",
+    "urine":       "Urinalysis",
+    "ultrasound":  "Ultrasound",
+    "echo":        "Echocardiogram",
+    "lipids":      "Lipid Panel",
+    "holter":      "Holter Monitor",
+    "bloodSugar":  "Blood Glucose",
+    "boneDensity": "Bone Density Scan"
+  },
+
+  "table": {
+    "code":     "Code",
+    "name":     "Test Name",
+    "category": "Category",
+    "price":    "Price",
+    "duration": "Duration",
+    "status":   "Status",
+    "actions":  "Actions"
+  },
+
+  "statuses": {
+    "active":   "Available",
+    "inactive": "Suspended"
+  },
+
+  "actions": {
+    "viewReport": "View Report",
+    "addResult":  "Add Result",
+    "deactivate": "Deactivate"
+  }
+}

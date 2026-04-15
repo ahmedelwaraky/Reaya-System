@@ -1,0 +1,24 @@
+{
+  "pageTitle": "إدارة الطوابق",
+  "addFloor":  "إضافة طابق",
+  "occupancy": "الإشغال",
+  "maintenance":"صيانة",
+  "occupied":  "مشغول",
+  "available": "متاح",
+
+  "stats": {
+    "totalRooms":  "إجمالي الغرف",
+    "occupied":    "مشغولة",
+    "available":   "متاحة",
+    "maintenance": "صيانة"
+  },
+
+  "floorNames": {
+    "ground": "الطابق الأرضي",
+    "first":  "الطابق الأول",
+    "second": "الطابق الثاني",
+    "third":  "الطابق الثالث",
+    "fourth": "الطابق الرابع",
+    "fifth":  "الطابق الخامس"
+  }
+}

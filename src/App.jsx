@@ -1,9 +1,9 @@
-import React                                        from "react";
-import { BrowserRouter, Routes, Route, Navigate }  from "react-router-dom";
-import { ThemeProvider }                            from "./core/ThemeContext";
-import MainLayout                                   from "./layout/MainLayout";
-import Login                                        from "./modules/Auth/page/Login";
-import Dashboard                                    from "./modules/Dashboard/page/Dashboard";
+import React from "react";
+import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
+import { ThemeProvider } from "./core/ThemeContext";
+import MainLayout from "./layout/MainLayout";
+import Login from "./modules/Auth/page/Login";
+import Dashboard from "./modules/Dashboard/page/Dashboard";
 import Employees from "./modules/employees/page/employees";
 import Doctors from "./modules/Doctors/page/Doctors";
 import Patients from "./modules/Patients/page/Patients";
@@ -13,8 +13,17 @@ import Insurance from "./modules/Insurance/page/Insurance";
 import Departments from "./modules/Departments/page/Departments";
 import Rooms from "./modules/Rooms/page/Rooms";
 import Buildings from "./modules/Buildings/page/Buildings";
-
-
+import Diagnoses from "./modules/Diagnostics/page/Diagnoses";
+import Care from "./modules/Care & Services/page/Care";
+import Prescriptions from "./modules/Prescriptions/page/Prescriptions";
+import Reports from "./modules/Reports/page/Reports";
+import Revenue from "./modules/Revenue/page/Revenue";
+import Leaves from "./modules/Work Leaves/page/Leaves";
+import Organization from "./modules/Organizations/page/Organization";
+import Geography from "./modules/Geography/page/Geography";
+import RoomAssignments from "./modules/AllottedRooms/page/RoomAssignments";
+import SettingsPage from "./modules/Settings/page/Settings";
+import Floors from "./modules/Floors/page/Floors";
 
 /* ── Auth guard ──────────────────────────── */
 function PrivateRoute({ children }) {
@@ -27,7 +36,6 @@ export default function App() {
     <ThemeProvider>
       <BrowserRouter>
         <Routes>
-
           {/* ── Public ───────────────────────── */}
           <Route path="/login" element={<Login />} />
 
@@ -39,22 +47,32 @@ export default function App() {
               </PrivateRoute>
             }
           >
-            <Route path="/"          element={<Navigate replace to="/home" />} />
-            <Route path="/home"      element={<Dashboard />} />
+            <Route path="/" element={<Navigate replace to="/home" />} />
+            <Route path="/home" element={<Dashboard />} />
             <Route path="/employees" element={<Employees />} />
-            <Route path="/doctors"   element={<Doctors />} />
-            <Route path="/patients"  element={<Patients />} />
+            <Route path="/doctors" element={<Doctors />} />
+            <Route path="/patients" element={<Patients />} />
             <Route path="/appointments" element={<Appointments />} />
-            <Route path="/invoices"   element={<Invoices />} />
-            <Route path="/insurance"  element={<Insurance />} />
+            <Route path="/invoices" element={<Invoices />} />
+            <Route path="/insurance" element={<Insurance />} />
             <Route path="/departments" element={<Departments />} />
-            <Route path="/rooms"      element={<Rooms />} />
-            <Route path="/buildings"  element={<Buildings />} />
+            <Route path="/rooms" element={<Rooms />} />
+            <Route path="/room-assignments" element={<RoomAssignments />} />
+            <Route path="/floors" element={<Floors />} />
+            <Route path="/buildings" element={<Buildings />} />
+            <Route path="/diagnoses" element={<Diagnoses />} />
+            <Route path="/care" element={<Care />} />
+            <Route path="/prescriptions" element={<Prescriptions />} />
+            <Route path="/reports" element={<Reports />} />
+            <Route path="/revenue" element={<Revenue />} />
+            <Route path="/leaves" element={<Leaves />} />
+            <Route path="/organization" element={<Organization />} />
+            <Route path="/geography" element={<Geography />} />
+            <Route path="/settings" element={<SettingsPage />} />
           </Route>
 
           {/* ── Fallback ─────────────────────── */}
           <Route path="*" element={<Navigate replace to="/login" />} />
-
         </Routes>
       </BrowserRouter>
     </ThemeProvider>

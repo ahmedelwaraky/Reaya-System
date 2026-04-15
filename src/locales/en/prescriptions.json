@@ -1,0 +1,61 @@
+{
+  "title":  "Prescriptions",
+  "addNew": "+ Add",
+  "search": "Search...",
+
+  "stats": {
+    "total":         "Total Prescriptions",
+    "active":        "Active Prescriptions",
+    "pendingRefill": "Pending Refills",
+    "interactions":  "Drug Interactions"
+  },
+
+  "charts": {
+    "perMonth":     "Prescriptions per Month",
+    "topDiagnoses": "Top Diagnoses",
+    "issued":       "Issued",
+    "refills":      "Refills"
+  },
+
+  "months": {
+    "jan": "January",
+    "feb": "February",
+    "mar": "March",
+    "apr": "April",
+    "may": "May",
+    "jun": "June",
+    "jul": "July"
+  },
+
+  "diagnoses": {
+    "hypertension": "Hypertension",
+    "diabetes2":    "Diabetes Type 2",
+    "arthritis":    "Arthritis",
+    "cholesterol":  "High Cholesterol",
+    "throatInflam": "Throat Inflammation",
+    "migraine":     "Migraine",
+    "other":        "Other"
+  },
+
+  "table": {
+    "name":      "Name",
+    "patient":   "Patient Name",
+    "doctor":    "Doctor Name",
+    "diagnosis": "Diagnosis",
+    "date":      "Date",
+    "status":    "Status",
+    "actions":   "Actions"
+  },
+
+  "statuses": {
+    "active":    "Active",
+    "completed": "Completed",
+    "pending":   "Pending"
+  },
+
+  "actions": {
+    "viewReport":  "View Report",
+    "refill":      "Refill",
+    "interaction": "Drug Interaction"
+  }
+}

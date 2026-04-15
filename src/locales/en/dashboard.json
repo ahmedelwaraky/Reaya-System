@@ -1,5 +1,5 @@
 {
-  "welcome":      "Welcome",
+  "welcome":      "Welcome,",
   "overview":     "Overview",
 
   "stats": {
@@ -27,7 +27,8 @@
     "orthopedics": "Orthopedics",
     "pediatrics":  "Pediatrics",
     "neurology":   "Neurology",
-    "general":     "General"
+    "general":     "General",
+    "emergency":   "Emergency"
   },
 
   "recentActivities": "Recent Activities",
@@ -40,5 +41,67 @@
     "invoiceIssued":      "Invoice issued #INV-1023",
     "insuranceUpdated":   "Insurance data updated - Fahad Al-Dosari",
     "newDoctor":          "New doctor added - Dr. Khalid Al-Mutairi"
+  },
+
+  "insights": {
+    "title":             "AI Analysis & Recommendations",
+    "erOverload":        "Emergency Department Overloaded",
+    "erOverloadDesc":    "Occupancy reached 92% – recommend redirecting cases via triage",
+    "doctorBalance":     "Redistribute Doctors",
+    "doctorBalanceDesc": "Dr. Sara has 12 patients, Dr. Khalid has only 4 – rebalancing recommended",
+    "visitIncrease":     "Expected Increase in Outpatients",
+    "visitIncreaseDesc": "Data indicates a 25% rise in appointments next week",
+    "nurseShortage":     "Nurse Shortage – Night Shift",
+    "nurseShortageDesc": "Only 3 nurses available for the night shift, 8 required",
+    "eveningClinic":     "Open Evening Clinic",
+    "eveningClinicDesc": "Orthopedics demand exceeds capacity – recommend adding evening hours"
+  },
+
+  "notif": {
+    "title":                "Smart Notifications",
+    "criticalPatient":      "Critical Patient – ICU",
+    "criticalPatientDesc":  "Severe blood pressure drop – immediate intervention needed, ICU room 3",
+    "medicineShortage":     "Medicine Stock Shortage",
+    "medicineShortageDesc": "Aspirin: only 5 units left – below minimum threshold",
+    "lateAppointment":      "Patient Late for Appointment",
+    "lateAppointmentDesc":  "Patient Fahad Al-Harbi is 30 minutes late for appointment with Dr. Sara",
+    "insuranceUpdate":      "Insurance System Update",
+    "insuranceUpdateDesc":  "Bupa data updated – please review pricing",
+    "now":    "Just now",
+    "10mins": "10 minutes ago",
+    "30mins": "30 minutes ago",
+    "1hour":  "1 hour ago"
+  },
+
+  "liveMap": {
+    "title":     "Hospital Live Map",
+    "floor0":    "Ground Floor – Emergency",
+    "floor1":    "First Floor – Cardiology",
+    "floor2":    "Second Floor – Surgery",
+    "total":     "rooms",
+    "room":      "",
+    "critical":  "Critical",
+    "occupied":  "Occupied",
+    "available": "Available"
+  },
+
+  "forecast": {
+    "title":     "Weekly Patient Volume Forecast",
+    "actual":    "Actual",
+    "predicted": "Predicted"
+  },
+
+  "deptLoad": {
+    "title":     "Expected Department Load",
+    "current":   "Current",
+    "predicted": "Predicted"
+  },
+
+  "queue": {
+    "title":     "Smart Queue Management",
+    "avgWait":   "Avg. Wait",
+    "mins":      "min",
+    "inTransit": "In Transit",
+    "waitLabel": "min"
   }
 }

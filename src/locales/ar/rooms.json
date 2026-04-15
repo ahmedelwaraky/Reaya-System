@@ -30,7 +30,7 @@
     "maternity": "ولادة"
   },
 
-  "status": {
+  "statuses": {
     "available":   "متاحة",
     "occupied":    "مشغولة",
     "maintenance": "صيانة"

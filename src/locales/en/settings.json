@@ -1,0 +1,77 @@
+{
+  "pageTitle": "Settings",
+  "save":      "Save",
+  "backupNow": "Backup Now",
+  "mins":      "min",
+  "days":      "days",
+
+  "sections": {
+    "hospital":      "Hospital Info",
+    "region":        "Language & Region",
+    "notifications": "Notifications",
+    "security":      "Security",
+    "appearance":    "Appearance",
+    "backup":        "Backup"
+  },
+
+  "fields": {
+    "name":       "Hospital Name",
+    "email":      "Email",
+    "phone":      "Phone",
+    "address":    "Address",
+    "license":    "License No.",
+    "website":    "Website",
+    "taxNo":      "Tax Number",
+    "language":   "Language",
+    "timezone":   "Timezone",
+    "currency":   "Currency",
+    "dateFormat": "Date Format"
+  },
+
+  "notifKeys": {
+    "emailAlerts":           "Email Alerts",
+    "smsAlerts":             "SMS Alerts",
+    "appointmentReminders":  "Appointment Reminders",
+    "lowStockAlerts":        "Low Stock Alerts",
+    "systemUpdates":         "System Updates"
+  },
+
+  "securityKeys": {
+    "twoFactor":       "Two-Factor Authentication",
+    "sessionTimeout":  "Session Timeout",
+    "passwordExpiry":  "Password Expiry",
+    "loginAttempts":   "Max Login Attempts"
+  },
+
+  "appearanceKeys": {
+    "theme":       "Theme",
+    "fontSize":    "Font Size",
+    "accentColor": "Accent Color"
+  },
+
+  "backupKeys": {
+    "autoBackup": "Auto Backup",
+    "frequency":  "Frequency",
+    "retention":  "Retention Period",
+    "lastBackup": "Last Backup"
+  },
+
+  "themes": {
+    "light":  "Light",
+    "dark":   "Dark",
+    "system": "System"
+  },
+
+  "fontSizes": {
+    "small":  "Small",
+    "medium": "Medium",
+    "large":  "Large"
+  },
+
+  "frequencies": {
+    "hourly":  "Hourly",
+    "daily":   "Daily",
+    "weekly":  "Weekly",
+    "monthly": "Monthly"
+  }
+}

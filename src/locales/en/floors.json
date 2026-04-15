@@ -1,0 +1,24 @@
+{
+  "pageTitle": "Floor Management",
+  "addFloor":  "Add Floor",
+  "occupancy": "Occupancy",
+  "maintenance":"Maintenance",
+  "occupied":  "Occupied",
+  "available": "Available",
+
+  "stats": {
+    "totalRooms":  "Total Rooms",
+    "occupied":    "Occupied",
+    "available":   "Available",
+    "maintenance": "Maintenance"
+  },
+
+  "floorNames": {
+    "ground": "Ground Floor",
+    "first":  "1st Floor",
+    "second": "2nd Floor",
+    "third":  "3rd Floor",
+    "fourth": "4th Floor",
+    "fifth":  "5th Floor"
+  }
+}

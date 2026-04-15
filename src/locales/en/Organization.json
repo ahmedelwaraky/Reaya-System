@@ -1,0 +1,46 @@
+{
+  "pageTitle": "Organization",
+
+  "sections": {
+    "info":           "Organization Info",
+    "contact":        "Contact",
+    "branches":       "Branches",
+    "management":     "Management Team",
+    "certifications": "Accreditations & Certificates"
+  },
+
+  "fields": {
+    "nameAr":        "Name (AR)",
+    "nameEn":        "Name (EN)",
+    "licenseNo":     "License No.",
+    "ceo":           "CEO",
+    "founded":       "Founded",
+    "type":          "Facility Type",
+    "taxNo":         "Tax Number",
+    "crNo":          "Commercial Register",
+    "accreditation": "Accreditation",
+    "since":         "Since"
+  },
+
+  "stats": {
+    "employees":   "Employees",
+    "branches":    "Branches",
+    "departments": "Departments",
+    "beds":        "Beds",
+    "doctors":     "Doctors",
+    "patients":    "Patients"
+  },
+
+  "branchTable": {
+    "name":        "Branch",
+    "employees":   "Employees",
+    "departments": "Departments",
+    "beds":        "Beds",
+    "status":      "Status"
+  },
+
+  "statuses": {
+    "active":   "Active",
+    "inactive": "Inactive"
+  }
+}

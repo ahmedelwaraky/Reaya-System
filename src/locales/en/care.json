@@ -1,0 +1,75 @@
+{
+  "title":    "Care & Services",
+  "addNew":   "+ Add",
+  "search":   "Search...",
+  "currency": "SAR",
+
+  "stats": {
+    "total":       "Total Services",
+    "usedToday":   "Services Used Today",
+    "avgCost":     "Avg Service Cost",
+    "monthGrowth": "Monthly Growth"
+  },
+
+  "charts": {
+    "monthlyUsage": "Monthly Service Usage",
+    "byCategory":   "Services by Category",
+    "line1":        "Services Provided",
+    "line2":        "Services Scheduled"
+  },
+
+  "months": {
+    "jan": "January",
+    "feb": "February",
+    "mar": "March",
+    "apr": "April",
+    "may": "May",
+    "jun": "June",
+    "jul": "July"
+  },
+
+  "categories": {
+    "clinic": "Clinic",
+    "rehab":  "Rehab",
+    "dental": "Dental",
+    "peds":   "Pediatrics",
+    "obgyn":  "OB/GYN",
+    "psych":  "Psychiatry",
+    "nephro": "Nephrology"
+  },
+
+  "serviceNames": {
+    "generalCheckup":    "General Checkup",
+    "teethCleaning":     "Teeth Cleaning",
+    "physioSession":     "Physiotherapy Session",
+    "pregnancyFollowup": "Pregnancy Follow-up",
+    "childVaccine":      "Child Vaccination",
+    "psychSession":      "Psychiatric Session",
+    "kidneyDialysis":    "Kidney Dialysis",
+    "toothExtraction":   "Tooth Extraction",
+    "speechTherapy":     "Speech Therapy",
+    "postpartumCare":    "Postpartum Care",
+    "nutritionConsult":  "Nutrition Consultation",
+    "pediatricConsult":  "Pediatric Consultation"
+  },
+
+  "table": {
+    "code":     "Code",
+    "name":     "Service Name",
+    "category": "Category",
+    "price":    "Price",
+    "status":   "Status",
+    "actions":  "Actions"
+  },
+
+  "statuses": {
+    "active":   "Available",
+    "inactive": "Suspended"
+  },
+
+  "actions": {
+    "viewReport":      "View Report",
+    "bookAppointment": "Book Appointment",
+    "deactivate":      "Deactivate"
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "title":  "إجازات العمل",
+  "addNew": "+ إضافة",
+  "search": "بحث...",
+
+  "stats": {
+    "total":    "إجمالي الإجازات",
+    "approved": "موافق عليها",
+    "pending":  "في الانتظار",
+    "rejected": "مرفوضة"
+  },
+
+  "charts": {
+    "monthly": "الإجازات الشهرية",
+    "byType":  "الإجازات حسب النوع"
+  },
+
+  "types": {
+    "annual":     "سنوية",
+    "sick":       "مرضية",
+    "emergency":  "طارئة",
+    "conference": "مؤتمر"
+  },
+
+  "table": {
+    "name":      "م",
+    "staff":     "اسم الموظف",
+    "leaveType": "نوع الإجازة",
+    "from":      "من تاريخ",
+    "to":        "إلى تاريخ",
+    "days":      "الأيام",
+    "status":    "الحالة",
+    "actions":   "الإجراءات"
+  },
+
+  "statuses": {
+    "approved": "مقبول",
+    "pending":  "في الانتظار",
+    "rejected": "مرفوض"
+  },
+
+  "actions": {
+    "approve":    "قبول",
+    "reject":     "رفض",
+    "viewReport": "عرض التقرير"
+  }
+}

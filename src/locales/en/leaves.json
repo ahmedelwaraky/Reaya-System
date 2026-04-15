@@ -1,0 +1,47 @@
+{
+  "title":  "Work Leaves",
+  "addNew": "+ Add",
+  "search": "Search...",
+
+  "stats": {
+    "total":    "Total Leaves",
+    "approved": "Approved",
+    "pending":  "Pending",
+    "rejected": "Rejected"
+  },
+
+  "charts": {
+    "monthly": "Monthly Leaves",
+    "byType":  "Leaves by Type"
+  },
+
+  "types": {
+    "annual":     "Annual",
+    "sick":       "Sick",
+    "emergency":  "Emergency",
+    "conference": "Conference"
+  },
+
+  "table": {
+    "name":      "Name",
+    "staff":     "Staff Name",
+    "leaveType": "Leave Type",
+    "from":      "From Date",
+    "to":        "To Date",
+    "days":      "Days",
+    "status":    "Status",
+    "actions":   "Actions"
+  },
+
+  "statuses": {
+    "approved": "Approved",
+    "pending":  "Pending",
+    "rejected": "Rejected"
+  },
+
+  "actions": {
+    "approve":    "Approve",
+    "reject":     "Reject",
+    "viewReport": "View Report"
+  }
+}

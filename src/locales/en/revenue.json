@@ -1,0 +1,42 @@
+{
+  "pageTitle": "Revenue",
+  "currency":  "SAR",
+
+  "stats": {
+    "monthlyRevenue": "Monthly Revenue",
+    "expenses":       "Expenses",
+    "netProfit":      "Net Profit",
+    "collectionRate": "Collection Rate",
+    "totalInvoices":  "Total Invoices",
+    "paid":           "Paid",
+    "pending":        "Pending",
+    "overdue":        "Overdue"
+  },
+
+  "charts": {
+    "revenueVsExpenses": "Revenue vs Expenses",
+    "dailyRevenue":      "Daily Revenue",
+    "revenueByDept":     "Revenue by Department",
+    "paymentMethods":    "Payment Methods",
+    "netProfitTrend":    "Net Profit Trend"
+  },
+
+  "legend": {
+    "revenue":  "Revenue",
+    "expenses": "Expenses"
+  },
+
+  "topPatients": {
+    "title":    "Top Paying Patients",
+    "name":     "Patient Name",
+    "invoices": "Invoices",
+    "total":    "Total",
+    "status":   "Status"
+  },
+
+  "statuses": {
+    "paid":    "Paid",
+    "pending": "Pending",
+    "overdue": "Overdue"
+  }
+}

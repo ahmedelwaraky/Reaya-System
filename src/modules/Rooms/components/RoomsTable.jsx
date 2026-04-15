@@ -9,7 +9,7 @@ import { ROOMS_DATA } from "../api/rooms.api";
 
 const STATUS_VARIANT = {
   available:   "success",
-  occupied:    "info",
+  occupied:    "danger",
   maintenance: "warning",
 };
 

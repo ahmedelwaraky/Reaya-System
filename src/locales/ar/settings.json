@@ -1,0 +1,77 @@
+{
+  "pageTitle": "الإعدادات",
+  "save":      "حفظ",
+  "backupNow": "نسخ احتياطي الآن",
+  "mins":      "دقيقة",
+  "days":      "يوم",
+
+  "sections": {
+    "hospital":      "معلومات المستشفى",
+    "region":        "اللغة والمنطقة",
+    "notifications": "الإشعارات",
+    "security":      "الأمان",
+    "appearance":    "المظهر",
+    "backup":        "النسخ الاحتياطي"
+  },
+
+  "fields": {
+    "name":       "اسم المستشفى",
+    "email":      "البريد الإلكتروني",
+    "phone":      "الهاتف",
+    "address":    "العنوان",
+    "license":    "رقم الترخيص",
+    "website":    "الموقع الإلكتروني",
+    "taxNo":      "الرقم الضريبي",
+    "language":   "اللغة",
+    "timezone":   "المنطقة الزمنية",
+    "currency":   "العملة",
+    "dateFormat": "تنسيق التاريخ"
+  },
+
+  "notifKeys": {
+    "emailAlerts":           "تنبيهات البريد الإلكتروني",
+    "smsAlerts":             "تنبيهات الرسائل القصيرة",
+    "appointmentReminders":  "تذكيرات المواعيد",
+    "lowStockAlerts":        "تنبيهات نقص المخزون",
+    "systemUpdates":         "تحديثات النظام"
+  },
+
+  "securityKeys": {
+    "twoFactor":       "المصادقة الثنائية",
+    "sessionTimeout":  "انتهاء الجلسة",
+    "passwordExpiry":  "انتهاء كلمة المرور",
+    "loginAttempts":   "محاولات تسجيل الدخول"
+  },
+
+  "appearanceKeys": {
+    "theme":       "المظهر",
+    "fontSize":    "حجم الخط",
+    "accentColor": "لون التمييز"
+  },
+
+  "backupKeys": {
+    "autoBackup": "النسخ الاحتياطي التلقائي",
+    "frequency":  "التكرار",
+    "retention":  "مدة الاحتفاظ",
+    "lastBackup": "آخر نسخة"
+  },
+
+  "themes": {
+    "light":  "فاتح",
+    "dark":   "داكن",
+    "system": "تلقائي"
+  },
+
+  "fontSizes": {
+    "small":  "صغير",
+    "medium": "متوسط",
+    "large":  "كبير"
+  },
+
+  "frequencies": {
+    "hourly":  "كل ساعة",
+    "daily":   "يومي",
+    "weekly":  "أسبوعي",
+    "monthly": "شهري"
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "pageTitle": "المؤسسة",
+
+  "sections": {
+    "info":           "معلومات المؤسسة",
+    "contact":        "التواصل",
+    "branches":       "الفروع",
+    "management":     "فريق الإدارة",
+    "certifications": "الاعتمادات والشهادات"
+  },
+
+  "fields": {
+    "nameAr":        "الاسم",
+    "nameEn":        "Name (EN)",
+    "licenseNo":     "رقم الترخيص",
+    "ceo":           "المدير التنفيذي",
+    "founded":       "سنة التأسيس",
+    "type":          "نوع المنشأة",
+    "taxNo":         "الرقم الضريبي",
+    "crNo":          "السجل التجاري",
+    "accreditation": "الاعتماد",
+    "since":         "منذ"
+  },
+
+  "stats": {
+    "employees":   "موظف",
+    "branches":    "فروع",
+    "departments": "قسم",
+    "beds":        "سرير",
+    "doctors":     "طبيب",
+    "patients":    "مريض"
+  },
+
+  "branchTable": {
+    "name":        "الفرع",
+    "employees":   "الموظفون",
+    "departments": "الأقسام",
+    "beds":        "الأسرة",
+    "status":      "الحالة"
+  },
+
+  "statuses": {
+    "active":   "نشط",
+    "inactive": "غير نشط"
+  }
+}

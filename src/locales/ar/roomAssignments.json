@@ -1,0 +1,47 @@
+{
+  "pageTitle":  "تخصيص الغرف",
+  "assignRoom": "+ تخصيص غرفة",
+  "mapTitle":   "خريطة الغرف",
+  "search":     "بحث...",
+  "noResults":  "لا توجد نتائج",
+
+  "stats": {
+    "total":       "الإجمالي",
+    "occupied":    "مشغولة",
+    "available":   "متاحة",
+    "critical":    "حرجة"
+  },
+
+  "filters": {
+    "all":         "الكل",
+    "occupied":    "مشغولة",
+    "available":   "متاحة",
+    "critical":    "حرجة",
+    "maintenance": "صيانة"
+  },
+
+  "types": {
+    "private":  "خاص",
+    "shared":   "مشترك",
+    "vip":      "VIP",
+    "icu":      "عناية",
+    "maternity":"ولادة"
+  },
+
+  "table": {
+    "room":      "الغرفة",
+    "floor":     "الطابق",
+    "type":      "النوع",
+    "patient":   "المريض",
+    "doctor":    "الطبيب",
+    "admitDate": "تاريخ الدخول",
+    "status":    "الحالة"
+  },
+
+  "statuses": {
+    "occupied":    "مشغولة",
+    "available":   "متاحة",
+    "critical":    "حرجة",
+    "maintenance": "صيانة"
+  }
+}

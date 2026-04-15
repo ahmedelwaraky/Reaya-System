@@ -11,6 +11,7 @@
     "insurance":     "Insurance",
     "departments":   "Departments",
     "rooms":         "Rooms",
+    "allotted-rooms":         "Allotted Rooms",
     "buildings":     "Buildings",
     "diagnoses":     "Diagnoses",
     "care":          "Care & Services",
@@ -19,7 +20,10 @@
     "revenue":       "Revenue",
     "leaves":        "Leaves",
     "organization":  "Organization",
-    "geography":     "Geography"
+    "geography":     "Geography",
+    "settings":      "Settings",
+    "floors":        "Floors"
+
   },
   "user": {
     "name": "Ahmed Al-Malki",

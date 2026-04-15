@@ -33,7 +33,7 @@
     "actions":    "الإجراءات"
   },
 
-  "status": {
+  "statuses": {
     "active": "نشط",
     "leave":  "إجازة"
   },

@@ -3,7 +3,7 @@
   "hospital_name": "Care Management",
   "nav": {
     "dashboard":     "Dashboard",
-    "employees":     "Employees",
+    "staff":     "Staff",
     "doctors":       "Doctors",
     "patients":      "Patients",
     "appointments":  "Appointments",

@@ -29,7 +29,7 @@
     "surgery":   "عملية"
   },
 
-  "status": {
+  "statuses": {
     "confirmed": "مؤكد",
     "pending":   "في الانتظار",
     "cancelled": "ملغى"

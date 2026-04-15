@@ -22,7 +22,7 @@
     "jun": "يونيو"
   },
 
-  "status": {
+  "statuses": {
     "active":    "نشط",
     "suspended": "معلق"
   },

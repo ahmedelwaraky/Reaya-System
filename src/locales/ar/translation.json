@@ -3,7 +3,7 @@
   "hospital_name": "إدارة الرعاية الصحية",
   "nav": {
     "dashboard":     "لوحة التحكم",
-    "employees":     "الموظفون",
+    "staff":     "الموظفون",
     "doctors":       "الأطباء",
     "patients":      "المرضى",
     "appointments":  "المواعيد",

@@ -22,7 +22,7 @@
     "jun": "Jun"
   },
 
-  "status": {
+  "statuses": {
     "active":    "Active",
     "suspended": "Suspended"
   },

@@ -29,7 +29,7 @@
     "transfer":  "تحويل"
   },
 
-  "status": {
+  "statuses": {
     "paid":     "مدفوع",
     "pending":  "معلق",
     "refunded": "مسترجع"

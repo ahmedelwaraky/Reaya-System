@@ -8,8 +8,8 @@ import en from "./locales/en/translation.json";
 import arDashboard from "./locales/ar/dashboard.json"; // ✅
 import enDashboard from "./locales/en/dashboard.json"; // ✅
 
-import arEmployees from "./locales/ar/employees.json"; // ✅
-import enEmployees from "./locales/en/employees.json"; // ✅
+import arStaff from "./locales/ar/staff.json"; // ✅
+import enStaff from "./locales/en/staff.json"; // ✅
 
 import arAuth from "./locales/ar/auth.json"; // ✅
 import enAuth from "./locales/en/auth.json"; // ✅
@@ -85,7 +85,7 @@ i18n
       ar: {
         translation: ar,
         dashboard: arDashboard, // ✅
-        employees: arEmployees, // ✅
+        staff: arStaff, // ✅
         auth: arAuth, // ✅
         doctors: arDoctors, // ✅
         patients: arPatients, // ✅
@@ -110,7 +110,7 @@ i18n
       en: {
         translation: en,
         dashboard: enDashboard, // ✅
-        employees: enEmployees, // ✅
+        staff: enStaff, // ✅
         auth: enAuth, // ✅
         doctors: enDoctors, // ✅
         patients: enPatients, // ✅

@@ -29,7 +29,7 @@
     "transfer":  "Transfer"
   },
 
-  "status": {
+  "statuses": {
     "paid":     "Paid",
     "pending":  "Pending",
     "refunded": "Refunded"

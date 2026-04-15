@@ -29,7 +29,7 @@ import {
 import logo from "../assets/images/icon1.png";
 const NAV_ITEMS = [
   { key: "dashboard", icon: LayoutDashboard, path: "/home" },
-  { key: "employees", icon: Users, path: "/employees" },
+  { key: "staff", icon: Users, path: "/staff" },
   { key: "doctors", icon: Stethoscope, path: "/doctors" },
   { key: "patients", icon: UserCheck, path: "/patients" },
   { key: "appointments", icon: Calendar, path: "/appointments" },

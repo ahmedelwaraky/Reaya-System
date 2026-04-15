@@ -45,7 +45,7 @@
     "actions": "الإجراءات"
   },
 
-  "status": {
+  "statuses": {
     "active":   "نشط",
     "inactive": "غير نشط"
   },

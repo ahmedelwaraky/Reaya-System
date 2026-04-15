@@ -57,16 +57,27 @@ const VARIANTS = {
 const STATUS_MAP = {
   active: "success",
   approved: "success",
-  completed: "primary",
-  leave: "leave",
+  available: "success",
+  paid: "success",
+  
   inactive: "danger",
   banned: "danger",
   rejected: "danger",
-  pending: "warning",
-  review: "info",
+  occupied: "danger",
+
+  completed: "primary",
   new: "primary",
+  critical: "primary",
+  
+  pending: "warning",
   maintenance: "warning", // ✅
+  
+  review: "info",
   planned: "info",
+  
+  overdue: "neutral",
+  
+  leave: "leave",
   soon: "leave",
 };
 

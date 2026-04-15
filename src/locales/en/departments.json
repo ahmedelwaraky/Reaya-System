@@ -22,7 +22,7 @@
     "pediatricsDep": "Pediatrics"
   },
 
-  "status": {
+  "statuses": {
     "active":   "Active",
     "inactive": "Inactive"
   },

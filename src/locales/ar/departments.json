@@ -22,7 +22,7 @@
     "pediatricsDep": "الأطفال"
   },
 
-  "status": {
+  "statuses": {
     "active":   "نشط",
     "inactive": "غير نشط"
   },

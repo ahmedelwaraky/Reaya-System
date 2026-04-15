@@ -4,7 +4,8 @@ import { ThemeProvider } from "./core/ThemeContext";
 import MainLayout from "./layout/MainLayout";
 import Login from "./modules/Auth/page/Login";
 import Dashboard from "./modules/Dashboard/page/Dashboard";
-import Employees from "./modules/employees/page/employees";
+
+import Staff from "./modules/Staff/page/Staff";
 import Doctors from "./modules/Doctors/page/Doctors";
 import Patients from "./modules/Patients/page/Patients";
 import Appointments from "./modules/Appointments/page/Appointments";
@@ -23,7 +24,7 @@ import Organization from "./modules/Organizations/page/Organization";
 import Geography from "./modules/Geography/page/Geography";
 import RoomAssignments from "./modules/AllottedRooms/page/RoomAssignments";
 import SettingsPage from "./modules/Settings/page/Settings";
-import Floors from "./modules/Floors/page/Floors";
+import Floors from "./modules/Floors/page/Floors";4
 
 /* ── Auth guard ──────────────────────────── */
 function PrivateRoute({ children }) {
@@ -49,7 +50,7 @@ export default function App() {
           >
             <Route path="/" element={<Navigate replace to="/home" />} />
             <Route path="/home" element={<Dashboard />} />
-            <Route path="/employees" element={<Employees />} />
+            <Route path="/staff" element={<Staff />} />
             <Route path="/doctors" element={<Doctors />} />
             <Route path="/patients" element={<Patients />} />
             <Route path="/appointments" element={<Appointments />} />

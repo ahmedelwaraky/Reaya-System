@@ -1,5 +1,5 @@
 // ✅ بيانات ثابتة دلوقتي — لما API تجهز بس استبدل بـ axios.get()
-export const EMPLOYEE_DATA = [
+export const STAFF_DATA = [
   { id: 1, name: "أحمد المالكي",       roleKey: "sysAdmin",     deptKey: "admin",      phone: "0551001001", status: "active" },
   { id: 2, name: "ماي الحربي",         roleKey: "nurse",        deptKey: "cardiology", phone: "0552002002", status: "active" },
   { id: 3, name: "سعد الغامدي",        roleKey: "labTech",      deptKey: "lab",        phone: "0553003003", status: "active" },

@@ -29,7 +29,7 @@
     "surgery":   "Surgery"
   },
 
-  "status": {
+  "statuses": {
     "confirmed": "Confirmed",
     "pending":   "Pending",
     "cancelled": "Cancelled"

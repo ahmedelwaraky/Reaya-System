@@ -45,7 +45,7 @@
     "actions":  "Actions"
   },
 
-  "status": {
+  "statuses": {
     "active": "Active",
     "leave":  "On Leave"
   },

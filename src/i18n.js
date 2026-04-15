@@ -4,8 +4,10 @@ import LanguageDetector from "i18next-browser-languagedetector";
 
 import ar from "./locales/ar/translation.json";
 import en from "./locales/en/translation.json";
+
 import arDashboard from "./locales/ar/dashboard.json"; // ✅
 import enDashboard from "./locales/en/dashboard.json"; // ✅
+
 import arEmployees from "./locales/ar/employees.json"; // ✅
 import enEmployees from "./locales/en/employees.json"; // ✅
 
@@ -17,20 +19,28 @@ import enDoctors from "./locales/en/doctors.json"; // ✅
 
 import arPatients from "./locales/ar/patients.json";
 import enPatients from "./locales/en/patients.json";
+
 import arAppointments from "./locales/ar/appointments.json";
 import enAppointments from "./locales/en/appointments.json";
+
 import arInvoices from "./locales/ar/invoices.json";
 import enInvoices from "./locales/en/invoices.json";
+
 import arInsurance from "./locales/ar/insurance.json";
 import enInsurance from "./locales/en/insurance.json";
+
 import arDepartments from "./locales/ar/departments.json";
 import enDepartments from "./locales/en/departments.json";
+
 import arRooms from "./locales/ar/rooms.json";
 import enRooms from "./locales/en/rooms.json";
+
 import arRoomAssignments from "./locales/ar/roomAssignments.json";
 import enRoomAssignments from "./locales/en/roomAssignments.json";
+
 import arFloors from "./locales/ar/floors.json";
 import enFloors from "./locales/en/floors.json";
+
 import arBuildings from "./locales/ar/buildings.json";
 import enBuildings from "./locales/en/buildings.json";
 
@@ -48,12 +58,16 @@ import enReports from "./locales/en/reports.json";
 
 import arRevenue from "./locales/ar/revenue.json";
 import enRevenue from "./locales/en/revenue.json";
+
 import arLeaves from "./locales/ar/leaves.json";
 import enLeaves from "./locales/en/leaves.json";
+
 import arOrganizations from "./locales/ar/organization.json";
 import enOrganizations from "./locales/en/organization.json";
+
 import arGeography from "./locales/ar/geography.json";
 import enGeography from "./locales/en/geography.json";
+
 import arSettings from "./locales/ar/settings.json";
 import enSettings from "./locales/en/settings.json";
 

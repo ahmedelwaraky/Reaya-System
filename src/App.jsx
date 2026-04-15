@@ -24,7 +24,7 @@ import Organization from "./modules/Organizations/page/Organization";
 import Geography from "./modules/Geography/page/Geography";
 import RoomAssignments from "./modules/AllottedRooms/page/RoomAssignments";
 import SettingsPage from "./modules/Settings/page/Settings";
-import Floors from "./modules/Floors/page/Floors";4
+import Floors from "./modules/Floors/page/Floors";
 
 /* ── Auth guard ──────────────────────────── */
 function PrivateRoute({ children }) {

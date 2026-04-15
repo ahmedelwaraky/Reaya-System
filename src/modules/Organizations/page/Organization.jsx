@@ -157,40 +157,49 @@ export default function Organization() {
           </Card>
 
           {/* Mini stats grid */}
-          <div className="flex gap-3">
-            <MiniStat
-              icon={Users}
-              value={ORG_STATS.employees}
-              label={t("stats.employees")}
-            />
-            <MiniStat
-              icon={GitBranch}
-              value={ORG_STATS.branches}
-              label={t("stats.branches")}
-            />
-            <MiniStat
-              icon={LayoutGrid}
-              value={ORG_STATS.departments}
-              label={t("stats.departments")}
-            />
-          </div>
-          <div className="flex gap-3">
-            <MiniStat
-              icon={Bed}
-              value={ORG_STATS.beds}
-              label={t("stats.beds")}
-            />
-            <MiniStat
-              icon={Stethoscope}
-              value={ORG_STATS.doctors}
-              label={t("stats.doctors")}
-            />
-            <MiniStat
-              icon={UserCheck}
-              value={ORG_STATS.patients}
-              label={t("stats.patients")}
-            />
-          </div>
+        <div className="bg-white p-4 rounded-xl shadow-sm space-y-4">
+  
+  <div className="flex gap-3">
+    <MiniStat
+      icon={Users}
+      value={ORG_STATS.employees}
+      label={t("stats.employees")}
+    />
+
+    <MiniStat
+      icon={GitBranch}
+      value={ORG_STATS.branches}
+      label={t("stats.branches")}
+    />
+
+    <MiniStat
+      icon={LayoutGrid}
+      value={ORG_STATS.departments}
+      label={t("stats.departments")}
+    />
+  </div>
+
+  <div className="flex gap-3">
+    <MiniStat
+      icon={Bed}
+      value={ORG_STATS.beds}
+      label={t("stats.beds")}
+    />
+
+    <MiniStat
+      icon={Stethoscope}
+      value={ORG_STATS.doctors}
+      label={t("stats.doctors")}
+    />
+
+    <MiniStat
+      icon={UserCheck}
+      value={ORG_STATS.patients}
+      label={t("stats.patients")}
+    />
+  </div>
+
+</div>
         </div>
       </div>
 

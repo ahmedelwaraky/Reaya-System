@@ -62,8 +62,8 @@ import enRevenue from "./locales/en/revenue.json";
 import arLeaves from "./locales/ar/leaves.json";
 import enLeaves from "./locales/en/leaves.json";
 
-import arOrganizations from "./locales/ar/organization.json";
-import enOrganizations from "./locales/en/organization.json";
+import arOrganization from "./locales/ar/organization.json";
+import enOrganization from "./locales/en/organization.json";
 
 import arGeography from "./locales/ar/geography.json";
 import enGeography from "./locales/en/geography.json";
@@ -101,7 +101,7 @@ i18n
         reports: arReports, // ✅
         revenue: arRevenue, // ✅
         leaves: arLeaves, // ✅
-        organization: arOrganizations, // ✅
+        organization: arOrganization, // ✅
         geography: arGeography, // ✅
         roomAssignments: arRoomAssignments,
         settings: arSettings,
@@ -126,7 +126,7 @@ i18n
         reports: enReports, // ✅
         revenue: enRevenue, // ✅
         leaves: enLeaves, // ✅
-        organization: enOrganizations, // ✅
+        organization: enOrganization, // ✅
         geography: enGeography, // ✅
         roomAssignments: enRoomAssignments,
         settings: enSettings,

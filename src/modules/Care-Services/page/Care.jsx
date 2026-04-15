@@ -9,7 +9,7 @@ import {
 import StatCard from "../../../component/ui/StatCard";
 import DonutChartCard from "../../../component/ui/DonutChartCard";
 import CareTable from "../components/CareTable";
-import LineChartCard from "../../../component/ui/Linechartcard";
+import LineChartCard from "../../../component/ui/LineChartCard";
 
 export default function Care() {
   const { t } = useTranslation("care");

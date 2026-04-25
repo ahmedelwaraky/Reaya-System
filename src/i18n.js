@@ -5,6 +5,9 @@ import LanguageDetector from "i18next-browser-languagedetector";
 import ar from "./locales/ar/translation.json";
 import en from "./locales/en/translation.json";
 
+import arCommon from "./locales/ar/common.json";
+import enCommon from "./locales/en/common.json";
+
 import arDashboard from "./locales/ar/dashboard.json"; // ✅
 import enDashboard from "./locales/en/dashboard.json"; // ✅
 
@@ -84,6 +87,7 @@ i18n
     resources: {
       ar: {
         translation: ar,
+        common: arCommon,
         dashboard: arDashboard, // ✅
         staff: arStaff, // ✅
         auth: arAuth, // ✅
@@ -105,10 +109,11 @@ i18n
         geography: arGeography, // ✅
         roomAssignments: arRoomAssignments,
         settings: arSettings,
-        floors: arFloors 
+        floors: arFloors,
       },
       en: {
         translation: en,
+        common: enCommon,
         dashboard: enDashboard, // ✅
         staff: enStaff, // ✅
         auth: enAuth, // ✅
@@ -130,7 +135,7 @@ i18n
         geography: enGeography, // ✅
         roomAssignments: enRoomAssignments,
         settings: enSettings,
-         floors: enFloors 
+        floors: enFloors,
       },
     },
     fallbackLng: "ar",

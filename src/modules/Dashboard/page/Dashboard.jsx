@@ -2,15 +2,15 @@ import { useTranslation } from "react-i18next";
 import { UserCheck, Stethoscope, Calendar, DollarSign } from "lucide-react";
 
 import StatCard from "../../../component/ui/StatCard";
-import BarChartCard from "../../../component/ui/BarChartCard";
-import DonutChartCard from "../../../component/ui/DonutChartCard";
-import ActivityList from "../../../component/ui/ActivityList";
-import AIInsightsPanel from "../../../component/ui/AIInsightsPanel";
+import BarChartCard from "../../../component/charts/BarChartCard";
+import DonutChartCard from "../../../component/charts/DonutChartCard";
+import ActivityList from "../../../component/charts/ActivityList";
+import AIInsightsPanel from "../../../component/charts/AIInsightsPanel";
 import SmartNotifications from "../../../component/ui/SmartNotifications";
-import HospitalLiveMap from "../../../component/ui/HospitalLiveMap";
-import DeptLoadChart from "../../../component/ui/DeptLoadChart";
+import HospitalLiveMap from "../../../component/charts/HospitalLiveMap";
+import DeptLoadChart from "../../../component/charts/DeptLoadChart";
 import SmartQueue from "../../../component/ui/SmartQueue";
-import PatientForecastChart from "../../../component/ui/PatientForecastChart";
+import PatientForecastChart from "../../../component/charts/PatientForecastChart";
 
 export default function Dashboard() {
   const { t } = useTranslation("dashboard");

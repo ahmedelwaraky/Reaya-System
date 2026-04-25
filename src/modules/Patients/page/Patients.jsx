@@ -1,27 +1,27 @@
 import { useTranslation } from "react-i18next";
 import { UserCheck, Users, Shield, HeartPulse } from "lucide-react";
 
-import StatCard      from "../../../component/ui/StatCard";
-import DonutChartCard from "../../../component/ui/DonutChartCard";
-import AreaChartCard  from "../../../component/ui/AreaChartCard";
-import PatientsTable  from "../components/PatientsTable";
+import StatCard from "../../../component/ui/StatCard";
+import DonutChartCard from "../../../component/charts/DonutChartCard";
+import AreaChartCard from "../../../component/charts/AreaChartCard";
+import PatientsTable from "../components/PatientsTable";
 
 export default function Patients() {
   const { t } = useTranslation("patients");
 
   /* Stats */
   const stats = [
-    { label: t("stats.total"),    value: "1,247", change: 12,   icon: Users      },
-    { label: t("stats.active"),   value: "1,089", change: 8,    icon: UserCheck  },
-    { label: t("stats.insured"),  value: "956",   change: null, icon: Shield     },
-    { label: t("stats.critical"), value: "23",    change: null, icon: HeartPulse },
+    { label: t("stats.total"), value: "1,247", change: 12, icon: Users },
+    { label: t("stats.active"), value: "1,089", change: 8, icon: UserCheck },
+    { label: t("stats.insured"), value: "956", change: null, icon: Shield },
+    { label: t("stats.critical"), value: "23", change: null, icon: HeartPulse },
   ];
 
   /* Donut — by gender */
   const genderData = [
-    { name: `${t("gender.male")} (580)`,   value: 580 },
+    { name: `${t("gender.male")} (580)`, value: 580 },
     { name: `${t("gender.female")} (520)`, value: 520 },
-    { name: `${t("gender.child")} (147)`,  value: 147 },
+    { name: `${t("gender.child")} (147)`, value: 147 },
   ];
   const genderColors = ["#1f7ead", "#e91e8c", "#f59e0b"];
 
@@ -36,16 +36,17 @@ export default function Patients() {
   ];
 
   const areas = [
-    { key: "total",  color: "#1f7ead", label: t("stats.total")  },
+    { key: "total", color: "#1f7ead", label: t("stats.total") },
     { key: "active", color: "#10b981", label: t("stats.active") },
   ];
 
   return (
     <div className="flex flex-col gap-6">
-
       {/* Stats */}
       <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-4 gap-4">
-        {stats.map((s, i) => <StatCard key={i} {...s} />)}
+        {stats.map((s, i) => (
+          <StatCard key={i} {...s} />
+        ))}
       </div>
 
       {/* Charts */}
@@ -64,7 +65,6 @@ export default function Patients() {
 
       {/* Table */}
       <PatientsTable />
-
     </div>
   );
 }

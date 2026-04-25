@@ -4,13 +4,20 @@ import { useTranslation } from "react-i18next";
 import DataTable from "../../../component/ui/DataTable";
 import StatusBadge from "../../../component/ui/StatusBadge";
 import RowActions from "../../../component/ui/RowActions";
+import DeleteModal from "../../../component/modals/DeleteModal";
 
 import { Ban, FileText, Key, RefreshCw } from "lucide-react";
 import { STAFF_DATA } from "../api/staff.api";
+import { useNavigate } from "react-router-dom";
 
 export default function StaffTable() {
+  const navigate = useNavigate();
   const { t } = useTranslation("staff");
   const [search, setSearch] = useState("");
+
+  // ✅ state للتحكم في المودال
+  const [isModalOpen, setModalOpen] = useState(false);
+  const [deleteTarget, setDeleteTarget] = useState(null);
 
   /* ── Map keys → translated labels ───────── */
   const allRows = STAFF_DATA.map((r) => ({
@@ -26,7 +33,27 @@ export default function StaffTable() {
     ),
   );
 
-  /* ── Columns ────────────────────────────── */
+  /* ── Delete handlers ─────────────────────── */
+  function handleDeleteClick(row) {
+    setDeleteTarget({ id: row.id, name: row.name });
+    setModalOpen(true); // فتح المودال
+  }
+
+  function handleDeleteConfirm() {
+    console.log("confirmed delete →", deleteTarget.id);
+
+    // TODO: call delete API هنا
+
+    setModalOpen(false); // قفل المودال
+    setDeleteTarget(null); // تنظيف البيانات
+  }
+
+  function handleCancel() {
+    setModalOpen(false);
+    setDeleteTarget(null);
+  }
+
+  /* ── Columns ─────────────────────────────── */
   const columns = [
     { key: "id", label: t("table.id"), width: "60px" },
     { key: "name", label: t("table.name"), width: "180px" },
@@ -45,9 +72,9 @@ export default function StaffTable() {
       width: "140px",
       render: (_, row) => (
         <RowActions
-          onView={() => console.log("view", row.id)}
+          onView={() => navigate(`/staff-details/${row.id}`)}
           onEdit={() => console.log("edit", row.id)}
-          onDelete={() => console.log("delete", row.id)}
+          onDelete={() => handleDeleteClick(row)} // ✅ فتح المودال
           extraActions={[
             {
               label: t("actions.viewReport"),
@@ -80,23 +107,33 @@ export default function StaffTable() {
   ];
 
   return (
-    <DataTable
-      title={t("title")}
-      columns={columns}
-      data={rows}
-      searchValue={search}
-      onSearch={setSearch}
-      searchPlaceholder={t("search")}
-      pageSize={8}
-      actions={
-        <button
-          className="h-9 px-4 rounded-[10px] text-[13px] font-semibold
-                     bg-[var(--c-accent)] text-white hover:opacity-90
-                     transition-opacity duration-150 whitespace-nowrap"
-        >
-          {t("addNew")}
-        </button>
-      }
-    />
+    <>
+      <DataTable
+        title={t("title")}
+        columns={columns}
+        data={rows}
+        searchValue={search}
+        onSearch={setSearch}
+        searchPlaceholder={t("search")}
+        pageSize={8}
+        actions={
+          <button
+            className="h-9 px-4 rounded-[10px] text-[13px] font-semibold
+                       bg-[var(--c-accent)] text-white hover:opacity-90
+                       transition-opacity duration-150 whitespace-nowrap"
+          >
+            {t("addNew")}
+          </button>
+        }
+      />
+
+      {/* ✅ Delete Modal */}
+      <DeleteModal
+        isOpen={isModalOpen}
+        employeeName={deleteTarget?.name}
+        onConfirm={handleDeleteConfirm}
+        onCancel={handleCancel}
+      />
+    </>
   );
 }

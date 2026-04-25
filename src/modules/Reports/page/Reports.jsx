@@ -1,14 +1,14 @@
 import { useTranslation } from "react-i18next";
 
 /* ── Shared UI ───────────────────────────── */
-import DonutChartCard  from "../../../component/ui/DonutChartCard";
-import RadialChartCard from "../../../component/ui/RadialChartCard";
+import DonutChartCard from "../../../component/charts/DonutChartCard";
+import RadialChartCard from "../../../component/charts/RadialChartCard";
 
 /* ── Reports components ──────────────────── */
-import MiniLineChart    from "../../../component/ui/MiniLineChart";
-import ReportChartCard  from "../../../component/ui/ReportChartCard";
-import MiniBarChart     from "../../../component/ui/MiniBarChart";
-import SectionHeader    from "../../../component/ui/SectionHeader";
+import MiniLineChart from "../../../component/charts/MiniLineChart";
+import ReportChartCard from "../../../component/charts/ReportChartCard";
+import MiniBarChart from "../../../component/charts/MiniBarChart";
+import SectionHeader from "../../../component/ui/SectionHeader";
 import SavedReportsList from "../../../component/ui/SavedReportsList";
 
 /* ── Data ────────────────────────────────── */
@@ -30,7 +30,6 @@ export default function Reports() {
 
   return (
     <div className="flex flex-col gap-6">
-
       <h1 className="text-[20px] font-bold text-[var(--c-text)]">
         {t("pageTitle")}
       </h1>
@@ -41,7 +40,6 @@ export default function Reports() {
       <SectionHeader title={t("sections.financial")} />
 
       <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-4">
-
         {/* Line — monthly revenue */}
         <ReportChartCard title={t("charts.monthlyRevenue")}>
           <MiniLineChart data={MONTHLY_REVENUE} color="#1f7ead" />
@@ -59,7 +57,6 @@ export default function Reports() {
           colors={["#1f7ead", "#10b981", "#f59e0b", "#ef4444"]}
           legendPosition="side"
         />
-
       </div>
 
       {/* ════════════════════════════════════════
@@ -68,7 +65,6 @@ export default function Reports() {
       <SectionHeader title={t("sections.clinical")} />
 
       <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-4">
-
         {/* Bar — patients by dept (6 items → bar أوضح) */}
         <ReportChartCard title={t("charts.patientsByDept")}>
           <MiniBarChart data={PATIENTS_BY_DEPT} color="#14b8a6" />
@@ -86,7 +82,6 @@ export default function Reports() {
         <ReportChartCard title={t("charts.roomsOccupancy")}>
           <MiniBarChart data={ROOMS_OCCUPANCY} color="#f59e0b" />
         </ReportChartCard>
-
       </div>
 
       {/* ════════════════════════════════════════
@@ -95,7 +90,6 @@ export default function Reports() {
       <SectionHeader title={t("sections.operations")} />
 
       <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-4">
-
         {/* Line — appointments (2 lines) */}
         <ReportChartCard title={t("charts.appointmentsMonthly")}>
           <MiniLineChart
@@ -122,7 +116,6 @@ export default function Reports() {
           title={t("charts.buildingsFloors")}
           data={BUILDINGS_FLOORS}
         />
-
       </div>
 
       {/* ════════════════════════════════════════
@@ -131,7 +124,6 @@ export default function Reports() {
       <SectionHeader title={t("sections.saved")} />
 
       <SavedReportsList reports={SAVED_REPORTS} />
-
     </div>
   );
 }

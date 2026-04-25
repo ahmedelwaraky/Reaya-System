@@ -1,0 +1,34 @@
+{
+  "common": {
+    "cancel": "Cancel"
+  },
+  "types": {
+    "employee": "Employee",
+    "patient": "Patient",
+    "doctor": "Doctor",
+    "item": "Item"
+  },
+  "actions": {
+    "delete": {
+      "title": "Delete {{type}}",
+      "subtitle": "This action cannot be undone",
+      "message": "Are you sure you want to delete this?",
+      "warning": "All related data will be permanently removed.",
+      "confirm": "Confirm Delete"
+    },
+    "ban": {
+      "title": "Ban {{type}}",
+      "subtitle": "User will be blocked",
+      "message": "Are you sure you want to ban this?",
+      "warning": "User will lose access to the system.",
+      "confirm": "Confirm Ban"
+    },
+    "reset": {
+      "title": "Reset Password",
+      "subtitle": "Temporary password will be generated",
+      "message": "Do you want to reset password for this user?",
+      "warning": "User must change password after login.",
+      "confirm": "Reset Password"
+    }
+  }
+}

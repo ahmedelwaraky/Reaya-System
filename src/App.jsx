@@ -25,6 +25,7 @@ import Geography from "./modules/Geography/page/Geography";
 import RoomAssignments from "./modules/AllottedRooms/page/RoomAssignments";
 import SettingsPage from "./modules/Settings/page/Settings";
 import Floors from "./modules/Floors/page/Floors";
+import StaffDetails from "./modules/Staff/page/StaffDetails";
 
 /* ── Auth guard ──────────────────────────── */
 function PrivateRoute({ children }) {
@@ -51,6 +52,7 @@ export default function App() {
             <Route path="/" element={<Navigate replace to="/home" />} />
             <Route path="/home" element={<Dashboard />} />
             <Route path="/staff" element={<Staff />} />
+            <Route path="/staff-details/:id" element={<StaffDetails />} />
             <Route path="/doctors" element={<Doctors />} />
             <Route path="/patients" element={<Patients />} />
             <Route path="/appointments" element={<Appointments />} />

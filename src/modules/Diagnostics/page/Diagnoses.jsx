@@ -2,8 +2,8 @@ import { useTranslation } from "react-i18next";
 import { FlaskConical, CalendarCheck, Clock, TrendingUp } from "lucide-react";
 
 import StatCard from "../../../component/ui/StatCard";
-import BarChartCard from "../../../component/ui/BarChartCard";
-import DonutChartCard from "../../../component/ui/DonutChartCard";
+import BarChartCard from "../../../component/charts/BarChartCard";
+import DonutChartCard from "../../../component/charts/DonutChartCard";
 import DiagnosesTable from "../components/DiagnosesTable";
 
 export default function Diagnoses() {

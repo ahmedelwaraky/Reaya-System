@@ -7,9 +7,9 @@ import {
 } from "lucide-react";
 
 import StatCard from "../../../component/ui/StatCard";
-import DonutChartCard from "../../../component/ui/DonutChartCard";
+import DonutChartCard from "../../../component/charts/DonutChartCard";
 import CareTable from "../components/CareTable";
-import LineChartCard from "../../../component/ui/LineChartCard";
+import LineChartCard from "../../../component/charts/LineChartCard";
 
 export default function Care() {
   const { t } = useTranslation("care");

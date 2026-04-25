@@ -2,8 +2,8 @@ import { useTranslation } from "react-i18next";
 import { Receipt, DollarSign, CheckCircle, Clock } from "lucide-react";
 
 import StatCard from "../../../component/ui/StatCard";
-import DonutChartCard from "../../../component/ui/DonutChartCard";
-import AreaChartCard from "../../../component/ui/AreaChartCard";
+import DonutChartCard from "../../../component/charts/DonutChartCard";
+import AreaChartCard from "../../../component/charts/AreaChartCard";
 import InvoicesTable from "../components/InvoicesTable";
 
 export default function Invoices() {
@@ -66,8 +66,8 @@ export default function Invoices() {
           title={t("charts.byPayment")}
           data={paymentData}
           colors={paymentColors}
-        //   legendPosition="side"
-          />
+          //   legendPosition="side"
+        />
       </div>
 
       {/* Table */}

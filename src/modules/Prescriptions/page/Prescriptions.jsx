@@ -1,12 +1,18 @@
 import { useTranslation } from "react-i18next";
 import { Pill, ClipboardList, Clock, AlertTriangle } from "lucide-react";
 import {
-  AreaChart, Area, XAxis, YAxis, CartesianGrid,
-  Tooltip, ResponsiveContainer, Legend,
+  AreaChart,
+  Area,
+  XAxis,
+  YAxis,
+  CartesianGrid,
+  Tooltip,
+  ResponsiveContainer,
+  Legend,
 } from "recharts";
 
-import StatCard       from "../../../component/ui/StatCard";
-import DonutChartCard from "../../../component/ui/DonutChartCard";
+import StatCard from "../../../component/ui/StatCard";
+import DonutChartCard from "../../../component/charts/DonutChartCard";
 import PrescriptionsTable from "../components/PrescriptionsTable";
 
 export default function Prescriptions() {
@@ -14,10 +20,20 @@ export default function Prescriptions() {
 
   /* ── Stats ───────────────────────────────── */
   const stats = [
-    { label: t("stats.total"),        value: "856", change: 22,   icon: Pill           },
-    { label: t("stats.active"),       value: "234", change: null, icon: ClipboardList  },
-    { label: t("stats.pendingRefill"),value: "18",  change: null, icon: Clock          },
-    { label: t("stats.interactions"), value: "3",   change: null, icon: AlertTriangle  },
+    { label: t("stats.total"), value: "856", change: 22, icon: Pill },
+    {
+      label: t("stats.active"),
+      value: "234",
+      change: null,
+      icon: ClipboardList,
+    },
+    { label: t("stats.pendingRefill"), value: "18", change: null, icon: Clock },
+    {
+      label: t("stats.interactions"),
+      value: "3",
+      change: null,
+      icon: AlertTriangle,
+    },
   ];
 
   /* ── Area chart — monthly prescriptions ─── */
@@ -34,15 +50,14 @@ export default function Prescriptions() {
   /* ── Donut chart — top diagnoses ─────────── */
   const diagnosesChart = [
     { name: t("diagnoses.hypertension"), value: 28 },
-    { name: t("diagnoses.diabetes2"),    value: 22 },
-    { name: t("diagnoses.arthritis"),    value: 18 },
-    { name: t("diagnoses.cholesterol"),  value: 15 },
-    { name: t("diagnoses.other"),        value: 17 },
+    { name: t("diagnoses.diabetes2"), value: 22 },
+    { name: t("diagnoses.arthritis"), value: 18 },
+    { name: t("diagnoses.cholesterol"), value: 15 },
+    { name: t("diagnoses.other"), value: 17 },
   ];
 
   return (
     <div className="flex flex-col gap-6">
-
       {/* ── Stats ────────────────────────────── */}
       <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-4 gap-4">
         {stats.map((s, i) => (
@@ -52,7 +67,6 @@ export default function Prescriptions() {
 
       {/* ── Charts ───────────────────────────── */}
       <div className="grid grid-cols-1 xl:grid-cols-[3fr_3fr] gap-4">
-
         {/* Area Chart */}
         <div className="rounded-2xl bg-[var(--c-bg)] border border-[var(--c-border)] p-5 flex flex-col gap-4">
           <h3 className="text-[14px] font-semibold text-[var(--c-text)]">
@@ -60,26 +74,35 @@ export default function Prescriptions() {
           </h3>
           <div className="w-full h-[220px]">
             <ResponsiveContainer width="100%" height="100%">
-              <AreaChart data={monthlyData} margin={{ top: 8, right: 8, left: -20, bottom: 0 }}>
+              <AreaChart
+                data={monthlyData}
+                margin={{ top: 8, right: 8, left: -20, bottom: 0 }}
+              >
                 <defs>
                   <linearGradient id="colorIssued" x1="0" y1="0" x2="0" y2="1">
-                    <stop offset="5%"  stopColor="#1f7ead" stopOpacity={0.2} />
-                    <stop offset="95%" stopColor="#1f7ead" stopOpacity={0}   />
+                    <stop offset="5%" stopColor="#1f7ead" stopOpacity={0.2} />
+                    <stop offset="95%" stopColor="#1f7ead" stopOpacity={0} />
                   </linearGradient>
                   <linearGradient id="colorRefills" x1="0" y1="0" x2="0" y2="1">
-                    <stop offset="5%"  stopColor="#f59e0b" stopOpacity={0.2} />
-                    <stop offset="95%" stopColor="#f59e0b" stopOpacity={0}   />
+                    <stop offset="5%" stopColor="#f59e0b" stopOpacity={0.2} />
+                    <stop offset="95%" stopColor="#f59e0b" stopOpacity={0} />
                   </linearGradient>
                 </defs>
-                <CartesianGrid strokeDasharray="3 3" stroke="var(--c-border)" vertical={false} />
+                <CartesianGrid
+                  strokeDasharray="3 3"
+                  stroke="var(--c-border)"
+                  vertical={false}
+                />
                 <XAxis
                   dataKey="name"
                   tick={{ fontSize: 11, fill: "var(--c-muted, #9ca3af)" }}
-                  axisLine={false} tickLine={false}
+                  axisLine={false}
+                  tickLine={false}
                 />
                 <YAxis
                   tick={{ fontSize: 11, fill: "var(--c-muted, #9ca3af)" }}
-                  axisLine={false} tickLine={false}
+                  axisLine={false}
+                  tickLine={false}
                 />
                 <Tooltip
                   contentStyle={{
@@ -131,7 +154,6 @@ export default function Prescriptions() {
 
       {/* ── Table ────────────────────────────── */}
       <PrescriptionsTable />
-
     </div>
   );
 }

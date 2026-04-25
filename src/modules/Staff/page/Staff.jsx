@@ -1,13 +1,12 @@
-import React from 'react'
+import React from "react";
 import { useTranslation } from "react-i18next";
 import { Users, UserCheck, CalendarOff, Building2 } from "lucide-react";
 
 import StatCard from "../../../component/ui/StatCard";
-import BarChartCard from "../../../component/ui/BarChartCard";
-import DonutChartCard from "../../../component/ui/DonutChartCard";
-import StaffTable from '../components/StaffTable';
+import BarChartCard from "../../../component/charts/BarChartCard";
+import DonutChartCard from "../../../component/charts/DonutChartCard";
+import StaffTable from "../components/StaffTable";
 export default function Staff() {
-
   const { t } = useTranslation("staff");
 
   /* Stats */

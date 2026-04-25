@@ -52,3 +52,6 @@ body {
   --c-hov-bg:      #1a2730;
   --c-hov-tx:      #c8dcf0;
 }
+
+.bg-surface { background: var(--c-surface); }
+.text-main { color: var(--c-text); }
